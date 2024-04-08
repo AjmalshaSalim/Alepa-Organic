@@ -267,7 +267,7 @@ img.img-fluid.slider {
     background-image: url('../img/alepa/left.webp');
     background-position: bottom right;
     background-size: contain;
-    background-repeat: no-repeat;
+     background-repeat: no-repeat;
 }
 .block-caption.right {
     -webkit-backdrop-filter: blur(32px);
@@ -278,32 +278,95 @@ img.img-fluid.slider {
     border-radius: 32px;
     margin-top: -55%;
     margin-left:-1%;
+   
+}
+div#Wildforest {
+    display: none;
+}
+div#Multifloral {
+    display: none;
+}
+#desc1
+{
+    display: none;
 }
 .Feature-text.right {
     text-align: end;
 }
-.circle::before {
+#circle::before {
     content: "";
-    position: absolute;
+    position:relative;
     width: 14%;
-    padding-bottom: 130%;
+    padding-bottom: 60%;
     border-radius: 999px;
     left: 29%;
     border-top: 2px dashed #007c85;
-    top: 195%;
+    top:225%;
 }
-.arrow1::before {
+#arrow1::before {
     content: "";
     position: absolute;
     width: 14%;
-    padding-bottom:110%;
+    padding-bottom: 60%;
     border-radius: 999px;
     left: 57%;
-    top: -104px !important;
+    top:760px !important;
     border-bottom: 2px dashed #007c85;
-    position: absolute;
+   
+}
+.circle h6{
+  
+        text-align: center;
+        display: flex;
+        align-items: center;
+        align-content: center;
+        align-self: center;
+        justify-content: center;
+        justify-items: center;
+        justify-self: center;
+        text-align: center;
+        margin-top: -29%;
+   
+}
+.Feature-right img {
+    margin-left:20%;
+    
 }
 .mt-6
 {
     margin-top: 6.0rem;
+}
+.foot-box2 ul li {
+    list-style-type: none;
+    margin-top: 10%;
+}
+.foot-box2 ul li a {
+    text-decoration: none;
+    color: #101427;
+
+}
+.foot-box3 ul li {
+    list-style-type: none;
+    margin-top: 10%;
+}
+.foot-box3 ul li a {
+    text-decoration: none;
+    color: #101427;
+
+}
+.desc ul li {
+    list-style-type: none;
+    margin-top: 5%;
+}
+.desc ul li  a {
+    text-decoration: none;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: flex-start;
+}
+.title-head
+{
+    color: #007c85;
 }

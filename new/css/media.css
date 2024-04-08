@@ -27,6 +27,16 @@
         text-align: right;
         animation: animate-text 2s ease 0s 1 normal backwards;
     }
+    .block-caption.right {
+        -webkit-backdrop-filter: blur(32px);
+        backdrop-filter: blur(32px);
+        max-width: 94%;
+        background-color: hsl(184deg 100% 26% / 57%);
+        color: #fcfcf5;
+        border-radius: 32px;
+        margin-top: -55%;
+        margin-left: -1%;
+    }
 }
 @media only screen 
   and (min-device-width: 320px) 
@@ -53,6 +63,16 @@
         text-align: right;
         animation: animate-text 2s ease 0s 1 normal backwards;
     }
+    .block-caption.right {
+        -webkit-backdrop-filter: blur(32px);
+        backdrop-filter: blur(32px);
+        max-width: 94%;
+        background-color: hsl(184deg 100% 26% / 57%);
+        color: #fcfcf5;
+        border-radius: 32px;
+        margin-top: -55%;
+        margin-left: -1%;
+    }
 }
 @media only screen 
   and (min-device-width:480px) 
@@ -78,6 +98,16 @@
         width: 71% !important;
         text-align: right;
         animation: animate-text 2s ease 0s 1 normal backwards;
+    }
+    .block-caption.right {
+        -webkit-backdrop-filter: blur(32px);
+        backdrop-filter: blur(32px);
+        max-width: 94%;
+        background-color: hsl(184deg 100% 26% / 57%);
+        color: #fcfcf5;
+        border-radius: 32px;
+        margin-top: -55%;
+        margin-left: -1%;
     }
 }
 @media only screen 

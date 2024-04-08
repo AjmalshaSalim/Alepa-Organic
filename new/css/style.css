@@ -2,6 +2,50 @@ body{
     background: #fcfcf5 !important;
     font-family: Montserrat !important;
 }
+.mobile-header {
+    display: flex;
+}
+.mobile-logo {
+    width: 50%;
+}
+.mobile-icon {
+    width: 50%;
+}
+ul.mob-nav {
+    display: flex;
+}
+.mob-nav li {
+    list-style-type: none;
+    margin-left: 15%;
+}
+
+ul.mobile-nav {
+    background: #f7f7ec;
+    padding:3%;
+    display: none;
+  
+}
+.mobile-nav li {
+    list-style-type: none;
+    margin-top: 3%;
+}
+i.fa-solid.fa-xmark {
+    display: none;
+}
+
+.mob-nav a,.mobile-nav a{
+   
+        text-decoration: none;
+        color: #040404;
+  
+}
+.mobile{
+    display: none;
+}
+.dropdown1
+{
+    display: none;
+}
 .desktop-logo {
     width: 25%;
 }
@@ -10,10 +54,9 @@ body{
     mix-blend-mode: darken;
 
 }
-.mobile-logo img{
+.mobile-logo img {
     width: 25%;
-   
-    mix-blend-mode:color-dodge;
+    mix-blend-mode: darken;
 }
 .slider-box {
     display: flex;
@@ -215,4 +258,52 @@ img.img-fluid.slider {
     align-content: center;
     padding: 29%;
 }
-
+.Feature-right {
+    background-image: url('../img/alepa/dot.png');
+    background-position: top right;
+    background-repeat: no-repeat;
+}
+#left-banner {
+    background-image: url('../img/alepa/left.webp');
+    background-position: bottom right;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.block-caption.right {
+    -webkit-backdrop-filter: blur(32px);
+    backdrop-filter: blur(32px);
+    max-width: 60%;
+    background-color: hsl(184deg 100% 26% / 57%);
+    color: #fcfcf5;
+    border-radius: 32px;
+    margin-top: -55%;
+    margin-left:-1%;
+}
+.Feature-text.right {
+    text-align: end;
+}
+.circle::before {
+    content: "";
+    position: absolute;
+    width: 14%;
+    padding-bottom: 130%;
+    border-radius: 999px;
+    left: 29%;
+    border-top: 2px dashed #007c85;
+    top: 195%;
+}
+.arrow1::before {
+    content: "";
+    position: absolute;
+    width: 14%;
+    padding-bottom:110%;
+    border-radius: 999px;
+    left: 57%;
+    top: -104px !important;
+    border-bottom: 2px dashed #007c85;
+    position: absolute;
+}
+.mt-6
+{
+    margin-top: 6.0rem;
+}

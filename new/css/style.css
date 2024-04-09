@@ -151,7 +151,7 @@ ul.dropdown li{
 .lower-text {
     font-size: 14px;
     margin-bottom: 20px;
-    color: #007c85;
+    color: #78a206;
     
 }
 .btn.btn-shop {
@@ -166,7 +166,7 @@ ul.dropdown li{
     justify-content: center;
    
     color: #ffffff;
-    background-color:#007c85
+    background-color:#2e84e3;
 
 }
 .btn.btn-shop:hover {
@@ -181,9 +181,12 @@ ul.dropdown li{
     justify-content: center;
    
     color: #ffffff;
-    background-color:#007c85
+    background-color:#2e84e3;
+    transition: 1s ease-in-out;
+    background: #4F95DA;
 
 }
+
 img.img-fluid.slider {
     width: 60%;
 }
@@ -222,7 +225,7 @@ img.img-fluid.slider {
     -webkit-backdrop-filter: blur(32px);
     backdrop-filter: blur(32px);
     max-width: 60%;
-    background-color: hsl(184deg 100% 26% / 57%);
+    background-color: hsl(211.49deg 76.37% 53.53% / 68%);
     color: #fcfcf5;
     border-radius: 32px;
     margin-top: -55%;
@@ -238,8 +241,8 @@ img.img-fluid.slider {
 }
 
         .circle {
-            box-shadow: 0px 0px 9px 0px hsl(184deg 100% 26% / 57%);
-            width: clamp(100px,65%,190px);
+            box-shadow: 0px 0px 9px 0px hsl(211.49deg 76.37% 53.53%);
+            width: clamp(100px, 65%, 190px);
             aspect-ratio: 1/1;
             margin: auto;
             border-width: 100%;
@@ -251,7 +254,7 @@ img.img-fluid.slider {
     justify-content: center;
     justify-items: center;
     justify-self: center;
-    color: #007c85;
+    color: rgb(121 163 8);
     font-size: 2.3rem;
     align-items: center;
     align-self: center;
@@ -273,7 +276,7 @@ img.img-fluid.slider {
     -webkit-backdrop-filter: blur(32px);
     backdrop-filter: blur(32px);
     max-width: 60%;
-    background-color: hsl(184deg 100% 26% / 57%);
+    background-color: hsl(211.49deg 76.37% 53.53% / 68%);
     color: #fcfcf5;
     border-radius: 32px;
     margin-top: -55%;
@@ -293,27 +296,7 @@ div#Multifloral {
 .Feature-text.right {
     text-align: end;
 }
-#circle::before {
-    content: "";
-    position:relative;
-    width: 14%;
-    padding-bottom: 60%;
-    border-radius: 999px;
-    left: 29%;
-    border-top: 2px dashed #007c85;
-    top:225%;
-}
-#arrow1::before {
-    content: "";
-    position: absolute;
-    width: 14%;
-    padding-bottom: 60%;
-    border-radius: 999px;
-    left: 57%;
-    top:760px !important;
-    border-bottom: 2px dashed #007c85;
-   
-}
+
 .circle h6{
   
         text-align: center;
@@ -368,5 +351,18 @@ div#Multifloral {
 }
 .title-head
 {
-    color: #007c85;
+    color: #78a206;
+}
+.main_white
+{
+    background-color: #ffffff;
+}
+.breadcrumb_collection
+{
+    background:#f5f6fc;
+    padding: 150px;
+    margin-bottom: 60px;
+}
+.breadcrumb_collection .col-lg-12.col-md-12.col-sm-12.col-12.col {
+    text-align: center;
 }

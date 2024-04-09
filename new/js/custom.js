@@ -29,4 +29,11 @@ $(document).ready(function(){
     $(".fa-bars").click(function(e) {
         $(".mobile-nav").slideToggle(); // Show/hide the mobile-nav menu
     });
+    $('#lightSlider').lightSlider({
+      gallery: true,
+      item: 1,
+      loop: true,
+      slideMargin: 0,
+      thumbItem: 3
+  });
 });

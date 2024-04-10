@@ -5219,6 +5219,7 @@ a.popup-img {
   margin: 12px 12px 12px 0;
   border: 0;
   text-transform: uppercase;
+  
 }
 @media only screen and (max-width: 767px) {
   .cta-form form button {
@@ -5409,12 +5410,13 @@ a.popup-img {
   }
 }
 .cart-table .table thead tr th {
+  font-family:Montserrat;
+  font-size: 10px;
+  font-weight: bold;
+  color: #222222;
+  text-transform: uppercase;
   text-align: center;
-  border: none;
-  font-size: 16px;
-  font-weight: 600;
-  color: #ffffff;
-  padding: 12px 20px;
+  background-color: #F2F2F2;
 }
 .cart-table .table tbody tr td {
   text-align: center;

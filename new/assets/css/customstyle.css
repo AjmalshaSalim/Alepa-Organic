@@ -360,8 +360,7 @@ div#Multifloral {
 .breadcrumb_collection
 {
     background:#f5f6fc;
-    padding: 150px;
-    margin-bottom: 60px;
+    
 }
 .breadcrumb_collection .col-lg-12.col-md-12.col-sm-12.col-12.col {
     text-align: center;
@@ -393,8 +392,25 @@ div#Multifloral {
 	border: 1px solid #eaeaea;
 	background: #ffffff;
 }
+.shopify-cleanslate
+{
+    background: #f2f2f2;
+}
+.card-header {
+	
+	background-color: #ffffff;
+	
+}
+.grid.card-body {
+	background: #f2f2f2;
+}
 .grid {
 	padding: 15.5px;
+}
+.btn-cart
+{
+    width: 100%;
+    margin-top: 5%;
 }
 .cart__layout_right .span{
  
@@ -402,6 +418,37 @@ div#Multifloral {
         font-size: 10px;
         font-weight: bold;
         text-transform: uppercase;
-        background: aliceblue;
+     
    
+}
+.threshold_bar .animate {
+	display: block;
+	height: 7px;
+	position: relative;
+	max-width: 100%;
+	border-radius: 20px;
+	background-color: #30b94d;
+	transition: width .6s ease;
+}
+.threshold_bar.threshold_congrats {
+	border-color: #9bdfc0;
+	margin-top: 28px;
+}
+.threshold_bar {
+	background-color: #ededed;
+	border-radius: 20px;
+	padding: 1px;
+}
+.threshold_spend.spend_congrats {
+    font-weight: 800;
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 0.25px;
+    margin-top: 28px;
+}
+.cart__shipping.d-flex.align-items-xl-center.justify-content-between {
+	margin-top: 28px;
+}
+.cart-notice-total {
+	margin-top: 28px;
 }

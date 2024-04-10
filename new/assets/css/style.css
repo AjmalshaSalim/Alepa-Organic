@@ -5864,8 +5864,9 @@ a.popup-img {
 
 /*-- Checkout Cart Total --*/
 .checkout-cart-total {
-  background-color: #333333;
+  background-color: #f5f6fc;
   padding: 45px;
+  box-shadow: 0px 0px 2px #000;
 }
 @media only screen and (max-width: 575px) {
   .checkout-cart-total {
@@ -5895,7 +5896,7 @@ a.popup-img {
   border-bottom: 1px solid #ffffff;
 }
 .checkout-cart-total ul li {
-  color: #ffffff;
+  color: #0a0a0a;
   font-size: 14px;
   line-height: 23px;
   font-weight: 600;
@@ -5903,7 +5904,7 @@ a.popup-img {
   margin-bottom: 16px;
 }
 .checkout-cart-total ul li span {
-  color: #ffffff;
+  color: #0a0a0a;
   float: right;
 }
 .checkout-cart-total p {

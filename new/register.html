@@ -6,7 +6,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Cart</title>
+    <title>Register</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- Place favicon.ico in the root directory -->
@@ -115,10 +115,10 @@
                     <div class="col">
                         
                         <div class="page-banner text-center">
-                            <h1>Checkout</h1>
+                            <h1>CREATE ACCOUNT</h1>
                             <ul class="page-breadcrumb">
                                 <li><a href="index.html">Home</a></li>
-                                <li>Checkout</li>
+                                <li>Create Account</li>
                             </ul>
                         </div>
                         
@@ -128,83 +128,54 @@
         </div>
 <section id="About">
     <div class="container">
-        <div class="row">
-            <div class="col-lg-8 col-md-8 col-sm-12 col-12">
-                <div class="cart-table table-responsive table-bordered mb-30">
-                    <table class="table">
-                        <thead>
-                            <tr>
-                                <th class="pro-thumbnail">Image</th>
-                                <th class="pro-title">Product</th>
-                                <th class="pro-price">Price</th>
-                                <th class="pro-quantity">Quantity</th>
-                                <th class="pro-subtotal">Total</th>
-                                <th class="pro-remove">Remove</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td class="pro-thumbnail"><a href="#"><img src="assets/img/alepa/multifloral honey.png" alt="Product"></a></td>
-                                <td class="pro-title"><a href="#">multi floral honey</a></td>
-                                <td class="pro-price"><span>$25.00</span></td>
-                                <td class="pro-quantity"><div class="pro-qty"><input type="number" value="1"></div></td>
-                                <td class="pro-subtotal"><span>$25.00</span></td>
-                                <td class="pro-remove"><a href="#"><i class="fa fa-trash-o"></i></a></td>
-                            </tr>
-                            <tr>
-                                <td class="pro-thumbnail"><a href="#"><img src="assets/img/alepa/stingless honey.png" alt="Product"></a></td>
-                                <td class="pro-title"><a href="#">stingless honey</a></td>
-                                <td class="pro-price"><span>$60.00</span></td>
-                                <td class="pro-quantity"><div class="pro-qty"><input type="number" value="1"></div></td>
-                                <td class="pro-subtotal"><span>$60.00</span></td>
-                                <td class="pro-remove"><a href="#"><i class="fa fa-trash-o"></i></a></td>
-                            </tr>
-                           
-                        </tbody>
-                    </table>
-                </div>
-                <div class="row">
-                    <div class=" col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
-                        <a class="btn btn-block btn-cart" href="">Proceed to checkout</a>
-                    </div>
-                    <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
-                        <a class="btn btn-block btn-cart" href="">Continue shopping</a>
-                    </div>
-                </div>
+        <div class="row justify-content-center">
+            <div class="col-lg-7 col-md-7 col-xl-7 col-sm-12 col-12">
+               <h3>SIGN IN</h3>
+               <p>Insert your account information:</p>
+               <div class="form-wrapper">
+                     <form action="" method="post">
+                          <div class="row">
+                                <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+                                    <input type="text" class="form-control" name="name" placeholder="Enter Your Username">
+                                </div>
+                          </div>
+                          <div class="row mt-4">
+                            <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+                                <input type="text" class="form-control" name="contact" placeholder="Enter Your Contact Number" maxlength="11">
+                            </div>
+                          </div>
+                          <div class="row mt-4">
+                            <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+                                <input type="email" class="form-control" name="email" placeholder="Enter Your Email"  pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$">
+                            </div>
+                          </div>
+                          <div class="row mt-4">
+                            <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+                                    <div class="input-group mb-3">
+                                        <input type="password" class="form-control" placeholder="Password" maxlength="6">
+                                        <div class="input-group-append">
+                                        <span class="input-group-text" id="basic-addon2"><i class="fa-solid fa-eye"></i><i class="fa-solid fa-eye-slash"></i></span>
+                                        </div>
+                                    </div>
+                            </div>        
+                          </div>
+                         
+                          <div class="row mt-2">
+                            
+                            <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+                                  <span> If you have an account, please <b><a href="login.html">Login Here</a></b></span>
+                            </div>        
+                          </div>
+                          <div class="row mt-2">
+                            
+                            <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+                                 <input type="submit" class="btn btn-cart btn-block" value="Register">
+                            </div>        
+                          </div>
+                     </form>
+               </div>
             </div>
-            <div class="col-lg-4 col-md-4 col-sm-12 col-12">
-                 <div class="cart__layout_right card">
-              <div class="cart__heading card-header">
-                <span class="span">There are 4 items in your cart</span>
-              </div>
-              <div class="grid card-body">
-                <div class="grid__item">
-                  <div class="cart__total d-flex align-items-center justify-content-between">
-                    <span class="cart__subtotal-title">Total:</span>
-                    <span class="cart__subtotal f_pr"><span class="money" data-currency-usd="$396.00" data-currency="USD">$396.00</span></span>
-                  </div>
-                  
-                  <div class="cart__shipping d-flex align-items-xl-center justify-content-between">
-                    <div class="cart__shipping-title">Shipping :</div>
-                    <div class="cart__shipping-sub">Shipping &amp; taxes calculated at checkout</div>
-                  </div>
-                      <div id="threshold_bar_popup">
-                        <div class="threshold_spend spend_congrats"><span>Congratulations! You've got free shipping!<i class="fa-solid fa-truck"></i></span></div>
-                        <div class="threshold_bar threshold_congrats"><span class="animate" style="width: 100% !important;"><span><i class="fa-solid fa-truck   animate__animated animate__backOutLeft"></i></span></span></div>
-                      </div>
-                    
-                    <div class="cart-notice-total">
-                      Free shipping for any orders above <span><span class="money" data-currency-usd="$200.00" data-currency="USD">$200.00</span></span>
-                    </div>
-                  
-                </div>
-                
-              </div>
-              
-                
-              
-            </div>
-            </div>
+          
            
         </div>
     </div>
@@ -245,7 +216,7 @@
     </footer>
     <script src="assets/js/custom.js"></script>
     <!-- Placed js at the end of the document so the pages load faster -->
-
+    <script src="assets/js/customjquery.js"></script>
     <script src="assets/js/vendor/modernizr-3.6.0.min.js"></script>
     <script src="assets/js/vendor/jquery-3.6.0.min.js"></script>
     <script src="assets/js/vendor/jquery-migrate-3.3.2.min.js"></script>

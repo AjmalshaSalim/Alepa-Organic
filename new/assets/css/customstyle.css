@@ -99,8 +99,8 @@ ul.desc-nav li a  {
     display: none;
     background-color: #f1f1f1;
     padding: 5%;
-    width:100%;
-  
+    width: 100%;
+    z-index: 99;
 }
 ul.dropdown li{
   margin-top: 4%;

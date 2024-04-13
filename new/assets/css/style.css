@@ -38,7 +38,7 @@
 /*  01. Theme default CSS
 /*----------------------------------------*/
 /*-- Google Font --*/
-@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,800|Yesteryear");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
 /*-- Common Style --*/
 *, *::after, *::before {
   -webkit-box-sizing: border-box;
@@ -51,6 +51,9 @@ html, body, .site-wrapper {
 .logo-device
 {
   width: 50%;
+
+    mix-blend-mode: darken;
+
 }
 body {
   background-color: #ffffff;
@@ -999,7 +1002,7 @@ blockquote.blockquote .author {
 /*  02. Header CSS
 /*----------------------------------------*/
 header.header {
-  background-color: #ffffff;
+
   position: static;
   left: 0;
   top: 0;
@@ -1007,6 +1010,7 @@ header.header {
   z-index: 999;
 }
 header.header.is-sticky {
+  background: #ffffff;
   position: fixed;
   -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
           box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
@@ -1315,8 +1319,8 @@ header.header.is-sticky .header-bottom {
 
 /*-- Header Bottom --*/
 .header-bottom {
-  padding: 35px 0 30px;
-  border-bottom: 1px solid #e5e5e5;
+  padding: 15px 0 10px;
+  
 }
 .header-bottom.bg-dark {
   border-color: #393939;
@@ -1498,7 +1502,7 @@ header.header.is-sticky .header-bottom {
   width: 35px;
   height: 35px;
   line-height: 30px;
-  border: 2px solid #9a9a9a;
+  /* border: 2px solid #9a9a9a; */
   border-radius: 50%;
   text-align: center;
   position: relative;

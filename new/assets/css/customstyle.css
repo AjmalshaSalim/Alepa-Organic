@@ -63,6 +63,10 @@ i.fa-solid.fa-xmark {
     margin-top:5%;
     width: 100%;
 }
+.dropdown a {
+	text-decoration: none;
+	color: #000;
+}
 .main
 {
     background-image: url('../img/alepa/left.webp');
@@ -106,7 +110,7 @@ ul.dropdown li{
   margin-top: 4%;
   width:100%;
 }
-.desktop-icon ul {
+.desktop-icon .dropdown-social {
     display: flex;
     justify-content: center;
 }

@@ -76,7 +76,7 @@ $(".fa-trash").click(function(){
 // Calculate subtotal and update display when quantity button is clicked
 $(".qtybtn").click(function(){
   var $row = $(this).closest("tr"); 
-  var proprice = parseFloat($row.find(".pro-price span").text().replace("$", ""));
+  var proprice = parseFloat($row.find(".pro-price span").text().replace("₹", ""));
   var proqty = parseFloat($row.find(".pro-quantity input").val());
   var prosubtotal = proprice * proqty;
   $row.find(".pro-subtotal span").text("$" + prosubtotal.toFixed(2));
@@ -96,7 +96,7 @@ $(".fa-trash-o").click(function(){
 function updateTotal() {
   var total = 0;
   $(".pro-subtotal span").each(function() {
-    total += parseFloat($(this).text().replace("$", ""));
+    total += parseFloat($(this).text().replace("₹", ""));
   });
   $("#total").text("$" + total.toFixed(2));
 }

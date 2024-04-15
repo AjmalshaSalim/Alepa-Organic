@@ -6,7 +6,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Login || Alepaorganic</title>
+    <title>My Account || Alepaorganic</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- Place favicon.ico in the root directory -->
@@ -26,7 +26,7 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <link href="assets/css/customstyle.css" rel="stylesheet">
     <link href="assets/css/mediaquery.css" rel="stylesheet">
-   
+    
 </head>
 
 <body>
@@ -119,18 +119,22 @@
                     </div>
                 </div>
             </header>
+         
         </div> 
-        <!--Header section end-->
+        <!--Header section end--> 
+         
+
+        <!-- Page Banner Section Start -->
         <div class="page-banner-section section breadcrumb_collection">
             <div class="container">
                 <div class="row">
                     <div class="col">
                         
                         <div class="page-banner text-center">
-                            <h1>ACCOUNT</h1>
+                            <h1>MY ACCOUNT</h1>
                             <ul class="page-breadcrumb">
                                 <li><a href="index.html">Home</a></li>
-                                <li>Account</li>
+                                <li>MY Account</li>
                             </ul>
                         </div>
                         
@@ -138,56 +142,183 @@
                 </div>
             </div>
         </div>
-<section id="About">
-    <div class="container">
-        <div class="row justify-content-center">
-            <div class="col-lg-7 col-md-7 col-xl-7 col-sm-12 col-12">
-               <h3>SIGN IN</h3>
-               <p>Insert your account information:</p>
-               <div class="form-wrapper">
-                     <form action="" method="post">
-                          <div class="row">
-                                <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
-                                    <input type="text" class="form-control" name="name" placeholder="Enter Your Email/Username">
+        <!-- Page Banner Section End -->
+
+        <!--My Account section start-->
+        <div class="my-account-section section pt-100 pt-lg-80 pt-md-70 pt-sm-60 pt-xs-50  pb-100 pb-lg-80 pb-md-70 pb-sm-60 pb-xs-50">
+            <div class="container">
+                <div class="row">
+                    
+                    <div class="col-12">
+                        <div class="row">
+                            <!-- My Account Tab Menu Start -->
+                            <div class="col-lg-3 col-12">
+                                <div class="myaccount-tab-menu nav" role="tablist">
+                                    <a href="#dashboad" class="active" data-bs-toggle="tab"><i class="fa fa-dashboard"></i>
+                                        Dashboard</a>
+    
+                                    <a href="#orders" data-bs-toggle="tab"><i class="fa fa-cart-arrow-down"></i> Orders</a>
+    
+             
+    
+                                    <a href="#address-edit" data-bs-toggle="tab"><i class="fa fa-map-marker"></i> address</a>
+    
+                                    <a href="#account-info" data-bs-toggle="tab"><i class="fa fa-user"></i> Account Details</a>
+    
+                                    <a href="login.html"><i class="fa fa-sign-out"></i> Logout</a>
                                 </div>
-                          </div>
-                          <div class="row mt-4">
-                            <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
-                                    <div class="input-group mb-3">
-                                        <input type="password" class="form-control" placeholder="Password" maxlength="6">
-                                        <div class="input-group-append">
-                                        <span class="input-group-text" id="basic-addon2"><i class="fa-solid fa-eye"></i><i class="fa-solid fa-eye-slash"></i></span>
+                            </div>
+                            <!-- My Account Tab Menu End -->
+    
+                            <!-- My Account Tab Content Start -->
+                            <div class="col-lg-9 col-12">
+                                <div class="tab-content" id="myaccountContent">
+                                    <!-- Single Tab Content Start -->
+                                    <div class="tab-pane fade show active" id="dashboad" role="tabpanel">
+                                        <div class="myaccount-content">
+                                            <h3>Dashboard</h3>
+    
+                                            <div class="welcome mb-20">
+                                                <p>Hello, <strong>Alex Tuntuni</strong> (If Not <strong>Tuntuni !</strong><a href="login-register.html" class="logout"> Logout</a>)</p>
+                                            </div>
+    
+                                            <p class="mb-0">From your account dashboard. you can easily check &amp; view your
+                                                recent orders, manage your shipping and billing addresses and edit your
+                                                password and account details.</p>
                                         </div>
                                     </div>
-                            </div>        
-                          </div>
-                          <div class="row mt-4">
-                     
-                            <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
-                                   <i class="fa-solid fa-envelope fa-text"></i><span class="mx-2">Forgot Your<b><a href="#">Password?</a></b></span>
-                            </div>        
-                          </div>
-                          <div class="row mt-2">
-                            
-                            <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
-                                  <span> If you don't have an account, please <b><a href="#">Register Here</a></b></span>
-                            </div>        
-                          </div>
-                          <div class="row mt-2">
-                            
-                            <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
-                                 <input type="submit" class="btn btn-cart btn-block" value="Login">
-                            </div>        
-                          </div>
-                     </form>
-               </div>
-            </div>
-          
-           
-        </div>
-    </div>
-</section>     
+                                    <!-- Single Tab Content End -->
     
+                                    <!-- Single Tab Content Start -->
+                                    <div class="tab-pane fade" id="orders" role="tabpanel">
+                                        <div class="myaccount-content">
+                                            <h3>Orders</h3>
+    
+                                            <div class="myaccount-table table-responsive text-center">
+                                                <table class="table table-bordered">
+                                                    <thead class="thead-light">
+                                                    <tr>
+                                                        <th>No</th>
+                                                        <th>Name</th>
+                                                        <th>Date</th>
+                                                        <th>Status</th>
+                                                        <th>Total</th>
+                                                        <th>Action</th>
+                                                    </tr>
+                                                    </thead>
+    
+                                                    <tbody>
+                                                    <tr>
+                                                        <td>1</td>
+                                                        <td>Mostarizing Oil</td>
+                                                        <td>Aug 22, 2022</td>
+                                                        <td>Pending</td>
+                                                        <td>$45</td>
+                                                        <td><a href="cart.html" class="btn">View</a></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>2</td>
+                                                        <td>Katopeno Altuni</td>
+                                                        <td>July 22, 2022</td>
+                                                        <td>Approved</td>
+                                                        <td>$100</td>
+                                                        <td><a href="cart.html" class="btn">View</a></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>3</td>
+                                                        <td>Murikhete Paris</td>
+                                                        <td>June 12, 2022</td>
+                                                        <td>On Hold</td>
+                                                        <td>$99</td>
+                                                        <td><a href="cart.html" class="btn">View</a></td>
+                                                    </tr>
+                                                    </tbody>
+                                                </table>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- Single Tab Content End -->
+    
+                                    
+    
+                                    <!-- Single Tab Content Start -->
+                                    <div class="tab-pane fade" id="address-edit" role="tabpanel">
+                                        <div class="myaccount-content">
+                                            <h3>Billing Address</h3>
+    
+                                            <address>
+                                                <p><strong>Alex Tuntuni</strong></p>
+                                                <p>1355 Market St, Suite 900 <br>
+                                                    San Francisco, CA 94103</p>
+                                                <p>Mobile: (123) 456-7890</p>
+                                            </address>
+    
+                                            <a href="#" class="btn d-inline-block edit-address-btn"><i class="fa fa-edit"></i>Edit Address</a>
+                                        </div>
+                                    </div>
+                                    <!-- Single Tab Content End -->
+    
+                                    <!-- Single Tab Content Start -->
+                                    <div class="tab-pane fade" id="account-info" role="tabpanel">
+                                        <div class="myaccount-content">
+                                            <h3>Account Details</h3>
+    
+                                            <div class="account-details-form">
+                                                <form action="#">
+                                                    <div class="row">
+                                                        <div class="col-lg-6 col-12 mb-30">
+                                                            <input id="first-name" placeholder="First Name" type="text">
+                                                        </div>
+    
+                                                        <div class="col-lg-6 col-12 mb-30">
+                                                            <input id="last-name" placeholder="Last Name" type="text">
+                                                        </div>
+    
+                                                        <div class="col-12 mb-30">
+                                                            <input id="display-name" placeholder="Display Name" type="text">
+                                                        </div>
+    
+                                                        <div class="col-12 mb-30">
+                                                            <input id="email" placeholder="Email Address" type="email">
+                                                        </div>
+    
+                                                        <div class="col-12 mb-30"><h4>Password change</h4></div>
+    
+                                                        <div class="col-12 mb-30">
+                                                            <input id="current-pwd" placeholder="Current Password" type="password">
+                                                        </div>
+    
+                                                        <div class="col-lg-6 col-12 mb-30">
+                                                            <input id="new-pwd" placeholder="New Password" type="password">
+                                                        </div>
+    
+                                                        <div class="col-lg-6 col-12 mb-30">
+                                                            <input id="confirm-pwd" placeholder="Confirm Password" type="password">
+                                                        </div>
+    
+                                                        <div class="col-12">
+                                                            <button class="save-change-btn">Save Changes</button>
+                                                        </div>
+    
+                                                    </div>
+                                                </form>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- Single Tab Content End -->
+                                </div>
+                            </div>
+                            <!-- My Account Tab Content End -->
+                        </div>
+    
+                    </div>
+                    
+                </div> 
+            </div>           
+        </div>
+        <!--My Account section end-->
+
+
     </div>
     <footer class="mt-6">
         <div class="container">
@@ -249,7 +380,6 @@
     <script src="assets/js/bootstrap.min.js"></script>
     <script src="assets/js/plugins.js"></script>
     <script src="assets/js/main.js"></script>
-
 </body>
 
 

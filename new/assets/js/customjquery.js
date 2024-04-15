@@ -73,6 +73,33 @@ $(document).ready(function(){
 $(".fa-trash").click(function(){
   $(this).closest(".box").remove();
 });
+// Calculate subtotal and update display when quantity button is clicked
+$(".qtybtn").click(function(){
+  var $row = $(this).closest("tr"); 
+  var proprice = parseFloat($row.find(".pro-price span").text().replace("$", ""));
+  var proqty = parseFloat($row.find(".pro-quantity input").val());
+  var prosubtotal = proprice * proqty;
+  $row.find(".pro-subtotal span").text("$" + prosubtotal.toFixed(2));
+  
+  // Update total sum of subtotals
+  updateTotal();
+});
+
+// Remove row when trash icon is clicked
+$(".fa-trash-o").click(function(){
+  $(this).closest('tr').remove();
+  // Update total sum of subtotals after removing row
+  updateTotal();
+});
+
+// Function to update total sum of subtotals
+function updateTotal() {
+  var total = 0;
+  $(".pro-subtotal span").each(function() {
+    total += parseFloat($(this).text().replace("$", ""));
+  });
+  $("#total").text("$" + total.toFixed(2));
+}
 
 });
 

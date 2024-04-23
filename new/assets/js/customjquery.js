@@ -103,3 +103,74 @@ updateTotal();
 
 });
 
+$(document).ready(function() {
+  var count = 0;
+  var limit = 100; // Set your desired limit here
+
+  // Function to update the count
+  function updateCount() {
+      if (count < limit) {
+          count++;
+          $('.count').text(count + '%');
+      } else {
+          clearInterval(interval); // Stop the interval when the limit is reached
+      }
+  }
+
+  // Call updateCount() every second
+  var interval = setInterval(updateCount, 1000); // 1000 milliseconds = 1 second
+});
+
+$(document).ready(function() {
+  var count = 0;
+  var limit = 99; // Set your desired limit here
+
+  // Function to update the count
+  function updateCount() {
+      if (count < limit) {
+          count++;
+          $('.count1').text(count + '%');
+      } else {
+          clearInterval(interval); // Stop the interval when the limit is reached
+      }
+  }
+
+  // Call updateCount() every second
+  var interval = setInterval(updateCount, 1000); // 1000 milliseconds = 1 second
+});
+
+$(document).ready(function() {
+  var count = 0;
+  var limit = 100; // Set your desired limit here
+
+  // Function to update the count
+  function updateCount() {
+      if (count < limit) {
+          count++;
+          $('.count2').text(count + '%');
+      } else {
+          clearInterval(interval); // Stop the interval when the limit is reached
+      }
+  }
+
+  // Call updateCount() every second
+  var interval = setInterval(updateCount, 1000); // 1000 milliseconds = 1 second
+});
+
+$(document).ready(function() {
+  var count = 0;
+  var limit = 100; // Set your desired limit here
+
+  // Function to update the count
+  function updateCount() {
+      if (count < limit) {
+          count++;
+          $('.count3').text(count + '%');
+      } else {
+          clearInterval(interval); // Stop the interval when the limit is reached
+      }
+  }
+
+  // Call updateCount() every second
+  var interval = setInterval(updateCount, 1000); // 1000 milliseconds = 1 second
+});

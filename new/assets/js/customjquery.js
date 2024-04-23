@@ -87,6 +87,19 @@ $(".fa-trash-o").click(function(){
   $(this).closest('tr').remove();
 });
 
+function updateTotal() {
+  var total = 0;
+  $(".money").each(function() {
+    var currency = $(this).data("currency");
+    var amountText = $(this).data("currency-" + currency);
+    var amount = parseFloat(amountText.replace("₹", ""));
+    total += amount;
+  });
+  $("#total").text("₹ " + total.toFixed(2));
+}
+
+// Call updateTotal initially to calculate total amount
+updateTotal();
 
 });
 

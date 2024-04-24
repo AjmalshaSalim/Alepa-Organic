@@ -1,10 +1,6 @@
 @charset "UTF-8";
 /*-----------------------------------------------------------------------------------
 
-    Template Name: Koncrete - Construction Bootstrap 4 Template
-    Version: 1.0
-
------------------------------------------------------------------------------------
 
     CSS INDEX
     ===================
@@ -25,7 +21,7 @@
     14. Blog CSS
     15. Login Register CSS
     16. My Account CSS
-    17. Newsletter CSS
+    17.    
     18. Modal CSS
     19. Sidebar CSS
     20. Brand CSS
@@ -89,7 +85,7 @@ h1 {
 }
 @media only screen and (max-width: 575px) {
   h1 {
-    font-size: 30px;
+    font-size: 22px;
   }
 }
 

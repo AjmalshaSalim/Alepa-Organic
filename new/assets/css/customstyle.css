@@ -227,14 +227,14 @@ img.img-fluid.slider {
     padding: 32px 32px 55px;
 }
 .block-caption {
-    /* -webkit-backdrop-filter: blur(32px);
-    backdrop-filter: blur(32px); */
-    max-width: 60%;
-    background-color: hsl(211.49deg 76.37% 53.53% / 68%);
-    color: #fcfcf5;
-    border-radius: 32px;
-    margin-top: -55%;
-    margin-left: 48%;
+	max-width: 60%;
+	background-color: hsla(211.5, 76.4%, 53.5%, 0.8);
+	color: #fcfcf5;
+	border-radius: 32px;
+	margin-top: -55%;
+	margin-left: 48%;
+	z-index: 99999;
+	position: absolute;
 }
  .title {
     font-size: 2.8rem;
@@ -317,8 +317,8 @@ div#Multifloral {
    
 }
 .Feature-right img {
-    margin-left:20%;
-    
+	margin-left: 20%;
+	width: 89%;
 }
 .mt-6
 {

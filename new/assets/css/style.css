@@ -46,7 +46,7 @@ html, body, .site-wrapper {
 }
 .logo-device
 {
-  width: 50%;
+  width: 35%;
 
     mix-blend-mode: darken;
 
@@ -62,21 +62,952 @@ body {
   color: #333333;
   position: relative;
 }
+
+/* ajmal */
+/* Snip */
+
+.custom-card-container{
+background-color: #EDF0DF;
+padding-top: 2%;
+padding-bottom: 2%;
+}
+@font-face { 
+  font-family:unicons-line;
+  src:url(https://unicons.iconscout.com/release/v4.0.0/fonts/line/unicons-0.eot);
+  src:url(https://unicons.iconscout.com/release/v4.0.0/fonts/line/unicons-0.eot#iefix) format('embedded-opentype'),url(https://unicons.iconscout.com/release/v4.0.0/fonts/line/unicons-0.woff2) format('woff2'),url(https://unicons.iconscout.com/release/v4.0.0/fonts/line/unicons-0.woff) format('woff'),url(https://unicons.iconscout.com/release/v4.0.0/fonts/line/unicons-0.ttf) format('truetype'),url(https://unicons.iconscout.com/release/v4.0.0/fonts/line/unicons-0.svg#unicons) format('svg');
+  font-weight:400;
+  font-display:swap;
+  font-style:normal;
+  unicode-range:U+E800-E83B;
+} 
+@font-face { 
+  font-family:unicons-line;
+  src:url(https://unicons.iconscout.com/release/v4.0.0/fonts/line/unicons-1.eot);
+  src:url(https://unicons.iconscout.com/release/v4.0.0/fonts/line/unicons-1.eot#iefix) format('embedded-opentype'),url(https://unicons.iconscout.com/release/v4.0.0/fonts/line/unicons-1.woff2) format('woff2'),url(https://unicons.iconscout.com/release/v4.0.0/fonts/line/unicons-1.woff) format('woff'),url(https://unicons.iconscout.com/release/v4.0.0/fonts/line/unicons-1.ttf) format('truetype'),url(https://unicons.iconscout.com/release/v4.0.0/fonts/line/unicons-1.svg#unicons) format('svg');
+  font-weight:400;
+  font-display:swap;
+  font-style:normal;
+  unicode-range:U+E83C-E877;
+} 
+@font-face { 
+  font-family:unicons-line;
+  src:url(https://unicons.iconscout.com/release/v4.0.0/fonts/line/unicons-10.eot);
+  src:url(https://unicons.iconscout.com/release/v4.0.0/fonts/line/unicons-10.eot#iefix) format('embedded-opentype'),url(https://unicons.iconscout.com/release/v4.0.0/fonts/line/unicons-10.woff2) format('woff2'),url(https://unicons.iconscout.com/release/v4.0.0/fonts/line/unicons-10.woff) format('woff'),url(https://unicons.iconscout.com/release/v4.0.0/fonts/line/unicons-10.ttf) format('truetype'),url(https://unicons.iconscout.com/release/v4.0.0/fonts/line/unicons-10.svg#unicons) format('svg');
+  font-weight:400;
+  font-display:swap;
+  font-style:normal;
+  unicode-range:U+EA5B-EA96;
+} 
+@font-face { 
+  font-family:unicons-line;
+  src:url(https://unicons.iconscout.com/release/v4.0.0/fonts/line/unicons-11.eot);
+  src:url(https://unicons.iconscout.com/release/v4.0.0/fonts/line/unicons-11.eot#iefix) format('embedded-opentype'),url(https://unicons.iconscout.com/release/v4.0.0/fonts/line/unicons-11.woff2) format('woff2'),url(https://unicons.iconscout.com/release/v4.0.0/fonts/line/unicons-11.woff) format('woff'),url(https://unicons.iconscout.com/release/v4.0.0/fonts/line/unicons-11.ttf) format('truetype'),url(https://unicons.iconscout.com/release/v4.0.0/fonts/line/unicons-11.svg#unicons) format('svg');
+  font-weight:400;
+  font-display:swap;
+  font-style:normal;
+  unicode-range:U+EA97-EAD4;
+} 
+@font-face { 
+  font-family:unicons-line;
+  src:url(https://unicons.iconscout.com/release/v4.0.0/fonts/line/unicons-12.eot);
+  src:url(https://unicons.iconscout.com/release/v4.0.0/fonts/line/unicons-12.eot#iefix) format('embedded-opentype'),url(https://unicons.iconscout.com/release/v4.0.0/fonts/line/unicons-12.woff2) format('woff2'),url(https://unicons.iconscout.com/release/v4.0.0/fonts/line/unicons-12.woff) format('woff'),url(https://unicons.iconscout.com/release/v4.0.0/fonts/line/unicons-12.ttf) format('truetype'),url(https://unicons.iconscout.com/release/v4.0.0/fonts/line/unicons-12.svg#unicons) format('svg');
+  font-weight:400;
+  font-display:swap;
+  font-style:normal;
+  unicode-range:U+EAD5-EB11;
+} 
+@font-face { 
+  font-family:unicons-line;
+  src:url(https://unicons.iconscout.com/release/v4.0.0/fonts/line/unicons-13.eot);
+  src:url(https://unicons.iconscout.com/release/v4.0.0/fonts/line/unicons-13.eot#iefix) format('embedded-opentype'),url(https://unicons.iconscout.com/release/v4.0.0/fonts/line/unicons-13.woff2) format('woff2'),url(https://unicons.iconscout.com/release/v4.0.0/fonts/line/unicons-13.woff) format('woff'),url(https://unicons.iconscout.com/release/v4.0.0/fonts/line/unicons-13.ttf) format('truetype'),url(https://unicons.iconscout.com/release/v4.0.0/fonts/line/unicons-13.svg#unicons) format('svg');
+  font-weight:400;
+  font-display:swap;
+  font-style:normal;
+  unicode-range:U+EB12-EB4D;
+} 
+@font-face { 
+  font-family:unicons-line;
+  src:url(https://unicons.iconscout.com/release/v4.0.0/fonts/line/unicons-14.eot);
+  src:url(https://unicons.iconscout.com/release/v4.0.0/fonts/line/unicons-14.eot#iefix) format('embedded-opentype'),url(https://unicons.iconscout.com/release/v4.0.0/fonts/line/unicons-14.woff2) format('woff2'),url(https://unicons.iconscout.com/release/v4.0.0/fonts/line/unicons-14.woff) format('woff'),url(https://unicons.iconscout.com/release/v4.0.0/fonts/line/unicons-14.ttf) format('truetype'),url(https://unicons.iconscout.com/release/v4.0.0/fonts/line/unicons-14.svg#unicons) format('svg');
+  font-weight:400;
+  font-display:swap;
+  font-style:normal;
+  unicode-range:U+EB4E-EB89;
+} 
+@font-face { 
+  font-family:unicons-line;
+  src:url(https://unicons.iconscout.com/release/v4.0.0/fonts/line/unicons-15.eot);
+  src:url(https://unicons.iconscout.com/release/v4.0.0/fonts/line/unicons-15.eot#iefix) format('embedded-opentype'),url(https://unicons.iconscout.com/release/v4.0.0/fonts/line/unicons-15.woff2) format('woff2'),url(https://unicons.iconscout.com/release/v4.0.0/fonts/line/unicons-15.woff) format('woff'),url(https://unicons.iconscout.com/release/v4.0.0/fonts/line/unicons-15.ttf) format('truetype'),url(https://unicons.iconscout.com/release/v4.0.0/fonts/line/unicons-15.svg#unicons) format('svg');
+  font-weight:400;
+  font-display:swap;
+  font-style:normal;
+  unicode-range:U+EB8A-EBC5;
+} 
+@font-face { 
+  font-family:unicons-line;
+  src:url(https://unicons.iconscout.com/release/v4.0.0/fonts/line/unicons-16.eot);
+  src:url(https://unicons.iconscout.com/release/v4.0.0/fonts/line/unicons-16.eot#iefix) format('embedded-opentype'),url(https://unicons.iconscout.com/release/v4.0.0/fonts/line/unicons-16.woff2) format('woff2'),url(https://unicons.iconscout.com/release/v4.0.0/fonts/line/unicons-16.woff) format('woff'),url(https://unicons.iconscout.com/release/v4.0.0/fonts/line/unicons-16.ttf) format('truetype'),url(https://unicons.iconscout.com/release/v4.0.0/fonts/line/unicons-16.svg#unicons) format('svg');
+  font-weight:400;
+  font-display:swap;
+  font-style:normal;
+  unicode-range:U+EBC6-EC01;
+} 
+@font-face { 
+  font-family:unicons-line;
+  src:url(https://unicons.iconscout.com/release/v4.0.0/fonts/line/unicons-17.eot);
+  src:url(https://unicons.iconscout.com/release/v4.0.0/fonts/line/unicons-17.eot#iefix) format('embedded-opentype'),url(https://unicons.iconscout.com/release/v4.0.0/fonts/line/unicons-17.woff2) format('woff2'),url(https://unicons.iconscout.com/release/v4.0.0/fonts/line/unicons-17.woff) format('woff'),url(https://unicons.iconscout.com/release/v4.0.0/fonts/line/unicons-17.ttf) format('truetype'),url(https://unicons.iconscout.com/release/v4.0.0/fonts/line/unicons-17.svg#unicons) format('svg');
+  font-weight:400;
+  font-display:swap;
+  font-style:normal;
+  unicode-range:U+EC02-EC3D;
+} 
+@font-face { 
+  font-family:unicons-line;
+  src:url(https://unicons.iconscout.com/release/v4.0.0/fonts/line/unicons-18.eot);
+  src:url(https://unicons.iconscout.com/release/v4.0.0/fonts/line/unicons-18.eot#iefix) format('embedded-opentype'),url(https://unicons.iconscout.com/release/v4.0.0/fonts/line/unicons-18.woff2) format('woff2'),url(https://unicons.iconscout.com/release/v4.0.0/fonts/line/unicons-18.woff) format('woff'),url(https://unicons.iconscout.com/release/v4.0.0/fonts/line/unicons-18.ttf) format('truetype'),url(https://unicons.iconscout.com/release/v4.0.0/fonts/line/unicons-18.svg#unicons) format('svg');
+  font-weight:400;
+  font-display:swap;
+  font-style:normal;
+  unicode-range:U+EC3E-EC79;
+} 
+@font-face { 
+  font-family:unicons-line;
+  src:url(https://unicons.iconscout.com/release/v4.0.0/fonts/line/unicons-19.eot);
+  src:url(https://unicons.iconscout.com/release/v4.0.0/fonts/line/unicons-19.eot#iefix) format('embedded-opentype'),url(https://unicons.iconscout.com/release/v4.0.0/fonts/line/unicons-19.woff2) format('woff2'),url(https://unicons.iconscout.com/release/v4.0.0/fonts/line/unicons-19.woff) format('woff'),url(https://unicons.iconscout.com/release/v4.0.0/fonts/line/unicons-19.ttf) format('truetype'),url(https://unicons.iconscout.com/release/v4.0.0/fonts/line/unicons-19.svg#unicons) format('svg');
+  font-weight:400;
+  font-display:swap;
+  font-style:normal;
+  unicode-range:U+EC7A-ECB5;
+} 
+@font-face { 
+  font-family:unicons-line;
+  src:url(https://unicons.iconscout.com/release/v4.0.0/fonts/line/unicons-2.eot);
+  src:url(https://unicons.iconscout.com/release/v4.0.0/fonts/line/unicons-2.eot#iefix) format('embedded-opentype'),url(https://unicons.iconscout.com/release/v4.0.0/fonts/line/unicons-2.woff2) format('woff2'),url(https://unicons.iconscout.com/release/v4.0.0/fonts/line/unicons-2.woff) format('woff'),url(https://unicons.iconscout.com/release/v4.0.0/fonts/line/unicons-2.ttf) format('truetype'),url(https://unicons.iconscout.com/release/v4.0.0/fonts/line/unicons-2.svg#unicons) format('svg');
+  font-weight:400;
+  font-display:swap;
+  font-style:normal;
+  unicode-range:U+E878-E8B3;
+} 
+@font-face { 
+  font-family:unicons-line;
+  src:url(https://unicons.iconscout.com/release/v4.0.0/fonts/line/unicons-20.eot);
+  src:url(https://unicons.iconscout.com/release/v4.0.0/fonts/line/unicons-20.eot#iefix) format('embedded-opentype'),url(https://unicons.iconscout.com/release/v4.0.0/fonts/line/unicons-20.woff2) format('woff2'),url(https://unicons.iconscout.com/release/v4.0.0/fonts/line/unicons-20.woff) format('woff'),url(https://unicons.iconscout.com/release/v4.0.0/fonts/line/unicons-20.ttf) format('truetype'),url(https://unicons.iconscout.com/release/v4.0.0/fonts/line/unicons-20.svg#unicons) format('svg');
+  font-weight:400;
+  font-display:swap;
+  font-style:normal;
+  unicode-range:U+ECB6-ECB9;
+} 
+@font-face { 
+  font-family:unicons-line;
+  src:url(https://unicons.iconscout.com/release/v4.0.0/fonts/line/unicons-3.eot);
+  src:url(https://unicons.iconscout.com/release/v4.0.0/fonts/line/unicons-3.eot#iefix) format('embedded-opentype'),url(https://unicons.iconscout.com/release/v4.0.0/fonts/line/unicons-3.woff2) format('woff2'),url(https://unicons.iconscout.com/release/v4.0.0/fonts/line/unicons-3.woff) format('woff'),url(https://unicons.iconscout.com/release/v4.0.0/fonts/line/unicons-3.ttf) format('truetype'),url(https://unicons.iconscout.com/release/v4.0.0/fonts/line/unicons-3.svg#unicons) format('svg');
+  font-weight:400;
+  font-display:swap;
+  font-style:normal;
+  unicode-range:U+E8B4-E8EF;
+} 
+@font-face { 
+  font-family:unicons-line;
+  src:url(https://unicons.iconscout.com/release/v4.0.0/fonts/line/unicons-4.eot);
+  src:url(https://unicons.iconscout.com/release/v4.0.0/fonts/line/unicons-4.eot#iefix) format('embedded-opentype'),url(https://unicons.iconscout.com/release/v4.0.0/fonts/line/unicons-4.woff2) format('woff2'),url(https://unicons.iconscout.com/release/v4.0.0/fonts/line/unicons-4.woff) format('woff'),url(https://unicons.iconscout.com/release/v4.0.0/fonts/line/unicons-4.ttf) format('truetype'),url(https://unicons.iconscout.com/release/v4.0.0/fonts/line/unicons-4.svg#unicons) format('svg');
+  font-weight:400;
+  font-display:swap;
+  font-style:normal;
+  unicode-range:U+E8F0-E92B;
+} 
+@font-face { 
+  font-family:unicons-line;
+  src:url(https://unicons.iconscout.com/release/v4.0.0/fonts/line/unicons-5.eot);
+  src:url(https://unicons.iconscout.com/release/v4.0.0/fonts/line/unicons-5.eot#iefix) format('embedded-opentype'),url(https://unicons.iconscout.com/release/v4.0.0/fonts/line/unicons-5.woff2) format('woff2'),url(https://unicons.iconscout.com/release/v4.0.0/fonts/line/unicons-5.woff) format('woff'),url(https://unicons.iconscout.com/release/v4.0.0/fonts/line/unicons-5.ttf) format('truetype'),url(https://unicons.iconscout.com/release/v4.0.0/fonts/line/unicons-5.svg#unicons) format('svg');
+  font-weight:400;
+  font-display:swap;
+  font-style:normal;
+  unicode-range:U+E92C-E967;
+} 
+@font-face { 
+  font-family:unicons-line;
+  src:url(https://unicons.iconscout.com/release/v4.0.0/fonts/line/unicons-6.eot);
+  src:url(https://unicons.iconscout.com/release/v4.0.0/fonts/line/unicons-6.eot#iefix) format('embedded-opentype'),url(https://unicons.iconscout.com/release/v4.0.0/fonts/line/unicons-6.woff2) format('woff2'),url(https://unicons.iconscout.com/release/v4.0.0/fonts/line/unicons-6.woff) format('woff'),url(https://unicons.iconscout.com/release/v4.0.0/fonts/line/unicons-6.ttf) format('truetype'),url(https://unicons.iconscout.com/release/v4.0.0/fonts/line/unicons-6.svg#unicons) format('svg');
+  font-weight:400;
+  font-display:swap;
+  font-style:normal;
+  unicode-range:U+E968-E9A4;
+} 
+@font-face { 
+  font-family:unicons-line;
+  src:url(https://unicons.iconscout.com/release/v4.0.0/fonts/line/unicons-7.eot);
+  src:url(https://unicons.iconscout.com/release/v4.0.0/fonts/line/unicons-7.eot#iefix) format('embedded-opentype'),url(https://unicons.iconscout.com/release/v4.0.0/fonts/line/unicons-7.woff2) format('woff2'),url(https://unicons.iconscout.com/release/v4.0.0/fonts/line/unicons-7.woff) format('woff'),url(https://unicons.iconscout.com/release/v4.0.0/fonts/line/unicons-7.ttf) format('truetype'),url(https://unicons.iconscout.com/release/v4.0.0/fonts/line/unicons-7.svg#unicons) format('svg');
+  font-weight:400;
+  font-display:swap;
+  font-style:normal;
+  unicode-range:U+E9A5-E9E1;
+} 
+@font-face { 
+  font-family:unicons-line;
+  src:url(https://unicons.iconscout.com/release/v4.0.0/fonts/line/unicons-8.eot);
+  src:url(https://unicons.iconscout.com/release/v4.0.0/fonts/line/unicons-8.eot#iefix) format('embedded-opentype'),url(https://unicons.iconscout.com/release/v4.0.0/fonts/line/unicons-8.woff2) format('woff2'),url(https://unicons.iconscout.com/release/v4.0.0/fonts/line/unicons-8.woff) format('woff'),url(https://unicons.iconscout.com/release/v4.0.0/fonts/line/unicons-8.ttf) format('truetype'),url(https://unicons.iconscout.com/release/v4.0.0/fonts/line/unicons-8.svg#unicons) format('svg');
+  font-weight:400;
+  font-display:swap;
+  font-style:normal;
+  unicode-range:U+E9E2-EA1D;
+} 
+@font-face { 
+  font-family:unicons-line;
+  src:url(https://unicons.iconscout.com/release/v4.0.0/fonts/line/unicons-9.eot);
+  src:url(https://unicons.iconscout.com/release/v4.0.0/fonts/line/unicons-9.eot#iefix) format('embedded-opentype'),url(https://unicons.iconscout.com/release/v4.0.0/fonts/line/unicons-9.woff2) format('woff2'),url(https://unicons.iconscout.com/release/v4.0.0/fonts/line/unicons-9.woff) format('woff'),url(https://unicons.iconscout.com/release/v4.0.0/fonts/line/unicons-9.ttf) format('truetype'),url(https://unicons.iconscout.com/release/v4.0.0/fonts/line/unicons-9.svg#unicons) format('svg');
+  font-weight:400;
+  font-display:swap;
+  font-style:normal;
+  unicode-range:U+EA1E-EA5A;
+} 
+@font-face { 
+  font-family:'JudgemeStar';
+  src:url("data:application/x-font-woff;charset=utf-8;base64,d09GRgABAAAAAAScAA0AAAAABrAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABGRlRNAAAEgAAAABoAAAAcbyQ+3kdERUYAAARgAAAAHgAAACAAMwAGT1MvMgAAAZgAAABGAAAAVi+vS9xjbWFwAAAB8AAAAEAAAAFKwBMjvmdhc3AAAARYAAAACAAAAAj//wADZ2x5ZgAAAkAAAAEJAAABdH33LXtoZWFkAAABMAAAAC0AAAA2BroQKWhoZWEAAAFgAAAAHAAAACQD5QHQaG10eAAAAeAAAAAPAAAAFAYAAABsb2NhAAACMAAAAA4AAAAOAO4AeG1heHAAAAF8AAAAHAAAACAASgAvbmFtZQAAA0wAAADeAAABkorWfVZwb3N0AAAELAAAACkAAABEp3ubLXgBY2BkYADhPPP4OfH8Nl8ZuJkYQODS2fRrCPr/aSYGxq1ALgcDWBoAO60LkwAAAHgBY2BkYGDc+v80gx4TAwgASaAICmABAFB+Arl4AWNgZGBgYGPQYWBiAAIwyQgWc2AAAwAHVQB6eAFjYGRiYJzAwMrAwejDmMbAwOAOpb8ySDK0MDAwMbByMsCBAAMCBKS5pjA4PGB4wMR44P8BBj3GrQymQGFGkBwAjtgK/gAAeAFjYoAAEA1jAwAAZAAHAHgB3crBCcAwDEPRZydkih567CDdf4ZskmLwFBV8xBfCaC4BXkOUmx4sU0h2ngNb9V0vQCxaRKIAevT7fGWuBrEAAAAAAAAAAAA0AHgAugAAeAF9z79Kw1AUx/FzTm7un6QmJtwmQ5Bg1abgEGr/BAqlU6Gju+Cgg1MkQ/sA7Vj7BOnmO/gUvo2Lo14NqIO6/IazfD8HEODtmQCfoANwNsyp2/GJt3WKQrd1NLiYYWx2PBqOsmJMEOznPOTzfSCrhAtbbLdmeFLJV9eKd63WLrZcIcuaEVdssWCKM6pLCfTVOYbz/0pNSMSZKLIZpvh78sAUH6PlMrreTCabP9r+Z/puPZ2ur/RqpQHgh+MIegCnXeM4MRAPjYN//5tj4ZtTjkFqEdmeMShlEJ7tVAly2TAkx6R68Fl4E/aVvn8JqHFQ4JS1434gXKcuL31dDhzs3YbsEOAd/IU88gAAAHgBfY4xTgMxEEVfkk0AgRCioKFxQYd2ZRtpixxgRU2RfhU5q5VWseQ4JdfgAJyBlmNwAM7ABRhZQ0ORwp7nr+eZAa54YwYg9zm3ynPOeFRe8MCrciXOh/KSS76UV5L/iDmrLiS5AeU519wrL3jmSbkS5115yR2fyivJv9kx0ZMZ2RLZw27q87iNQi8EBo5FSPIMw3HqBboi5lKTGAGDp8FKXWP+t9TU01Lj5His1Ba6uM9dTEMwvrFmbf5GC/q2drW3ruXUhhsCiQOjznFlCzYhHUZp4xp76vsvQh89CQAAeAFjYGJABowM6IANLMrEyMTIzMjCXpyRWJBqZshWXJJYBKOMAFHFBucAAAAAAAAB//8AAngBY2BkYGDgA2IJBhBgAvKZGViBJAuYxwAABJsAOgAAeAFjYGBgZACCk535hiD60tn0azAaAEqpB6wAAA==") format("woff");
+  font-weight:normal;
+  font-style:normal;
+} 
+  body {  
+    color:;
+    font-family:var(--baseFont);
+    font-weight:400;
+    font-size:var(--baseFontSize);
+    background:var(--bodyBackgroundColor);
+  }  
+* { 
+    box-sizing: border-box; 
+    backface-visibility: hidden;
+} 
+
+.row { 
+    position: relative; 
+    display: -webkit-box; 
+    display: -ms-flexbox; 
+    display: flex; 
+    -webkit-box-flex: 0; 
+    -ms-flex: 0 1 auto; 
+    flex: 0 1 auto; 
+    -webkit-box-orient: horizontal; 
+    -webkit-box-direction: normal; 
+    -ms-flex-direction: row; 
+    flex-direction: row; 
+    -ms-flex-wrap: wrap; 
+    flex-wrap: wrap; 
+    width: 100%;
+} 
+
+body { 
+    margin: 0;
+} 
+
+body { 
+    height: 100%;
+} 
+
+body { 
+    font-family: var(--baseFont); 
+    font-weight: 400; 
+    font-size: var(--baseFontSize); 
+    background: var(--bodyBackgroundColor); 
+    color: var(--textColor);
+} 
+
+html { 
+    -webkit-text-size-adjust: 100%;
+} 
+
+html { 
+    height: 100%;
+} 
+
+html { 
+    scroll-behavior: smooth;
+} 
+
+:root { 
+    --baseFont: "DM Sans", sans-serif; 
+    --titleFont: "DM Sans", sans-serif; 
+    --baseFontSize: 15px; 
+    --bodyBackgroundColor: #FFFFFF; 
+    --textColor: #222222; 
+    --titleColor: #222222; 
+    --secondaryTextColor: #f05924; 
+    --linkColor: #222222; 
+    --accentColor: #f05924; 
+    --accentTextColor: #FFFFFF; 
+    --borderRadius: 5px; 
+    --borderRadiusSmall: 5px; 
+    --cardPadding: 15px; 
+    --maxwidth: 1280px; 
+    --inputFill: #EFEFEF; 
+    --inputContent: #f05924;
+} 
+
+.layout__content  { 
+    margin-right: auto; 
+    margin-left: auto; 
+    width: 100%; 
+    position: relative;
+} 
+
+.s__content  { 
+    padding: 0px;
+} 
+
+:selection { 
+    color: var(--accentTextColor); 
+    background: var(--accentColor);
+} 
+
+.col-12 { 
+    display: flex; 
+    -webkit-box-flex: 0; 
+    -ms-flex: 0 0 auto; 
+    flex: 0 0 auto; 
+    padding-right: 12px; 
+    padding-left: 12px;
+} 
+
+.col-12 { 
+    -ms-flex-preferred-size: 100%; 
+    /* flex-basis: 100%;  */
+    max-width: 100%;
+} 
+
+.center { 
+    -webkit-box-pack: center; 
+    -ms-flex-pack: center; 
+    justify-content: center; 
+    justify-items: center; 
+    text-align: center;
+} 
+
+.section__heading { 
+    margin-bottom: 32px;
+} 
+
+.column { 
+    flex-direction: column;
+} 
+
+.showMore { 
+    margin-top: 16px;
+} 
+
+
+.section__heading--heading:before { 
+    background: currentColor; 
+    width: 100%; 
+    top: 50%; 
+    height: 2px; 
+    margin-top: -1px !important; 
+    left: 0px; 
+    position: absolute; 
+    opacity: 0.1;
+} 
+
+.col-6 { 
+    display: flex; 
+    -webkit-box-flex: 0; 
+    -ms-flex: 0 0 auto; 
+    flex: 0 0 auto; 
+    padding-right: 12px; 
+    padding-left: 12px;
+} 
+
+.col-6 { 
+    -ms-flex-preferred-size: 50%; 
+    flex-basis: 50%; 
+    max-width: 50%;
+} 
+
+@media only screen and (min-width: 768px){ 
+  .col-md-3 { 
+    display: flex; 
+    -webkit-box-flex: 0; 
+    -ms-flex: 0 0 auto; 
+    flex: 0 0 auto; 
+    padding-right: 12px; 
+    padding-left: 12px;
+  } 
+
+  .col-md-3 { 
+    -ms-flex-preferred-size: 25%; 
+    flex-basis: 25%; 
+    max-width: 25%;
+  } 
+}     
+
+.card--holder { 
+    padding: 0px var(--cardPadding);
+} 
+
+.card--holder { 
+    flex-basis: 50%;
+} 
+
+a { 
+    background-color: transparent;
+} 
+
+a { 
+    color: var(--linkColor);
+} 
+
+.button { 
+    text-align: center; 
+    text-decoration: none; 
+    font-size: 15px; 
+    border-width: 2px; 
+    border-style: solid; 
+    border-color: transparent; 
+    border-radius: var(--borderRadiusSmall); 
+    display: inline-block; 
+    padding: 10px 25px; 
+    max-width: 100%; 
+    background-color: transparent; 
+    transition: all 0.15s; 
+    animation-duration: 1s;
+} 
+
+.button--primary__ghost {
+  border-color: #2e84e3;
+  color: #2e84e3;
+}
+
+
+
+  .button--primary__ghost:hover { 
+    background-color: #2e84e3; 
+    color: #FFFFFF;
+  } 
+}     
+
+h2 { 
+    font-family: var(--titleFont);
+} 
+
+h2 { 
+    font-weight: 700; 
+    color: var(--titleColor);
+} 
+
+.h-reset { 
+    margin: 0; 
+    line-height: 1em; 
+    font-weight: normal;
+} 
+
+.font__family--title { 
+    font-family: var(--titleFont); 
+    font-weight: 700;
+} 
+ 
+.section__heading--heading h2 {
+  position: relative;
+  font-family: 'Montserrat';
+  font-weight: 500;
+  z-index: 2;
+  display: inline-block;
+  line-height: 1.5em;
+  font-size: 25px;
+}
+
+.card--default { 
+    position: relative; 
+    display: inline-block; 
+    width: 100%; 
+    margin-bottom: 30px;
+} 
+
+.card--default:hover { 
+    z-index: 9;
+} 
+
+.card--default:hover:before { 
+    display: block;
+} 
+
+.card__img--container { 
+    overflow: hidden; 
+    position: relative; 
+    display: block; 
+    margin-left: auto !important; 
+    margin-right: auto !important; 
+    width: 100%;
+} 
+
+.card--default a  { 
+    text-decoration: none;
+} 
+
+a:not(.button):hover { 
+    color: var(--accentColor);
+} 
+
+.card--default .card__info  { 
+    text-align: center; 
+    margin: 8px 0px;
+} 
+
+.card__img--ratio { 
+    padding-top: 133.33%; 
+    width: 100%; 
+    position: relative; 
+    border-radius: var(--borderRadius); 
+    overflow: hidden;
+} 
+
+.card__img--ratio { 
+    border-radius: 0px;
+} 
+
+.card--default .card__brand  { 
+    font-size: 0.8em; 
+    font-weight: 400; 
+    color: rgba(0,0,0,0); 
+    margin-bottom: 4px !important; 
+    display: inline-block;
+} 
+
+span { 
+    color: var(--textColor);
+} 
+
+@media all{ 
+  .jdgm-widget.jdgm-widget { 
+    display: block;
+  } 
+}     
+
+.card__title { 
+    display: block; 
+    margin-bottom: 8px !important; 
+    white-space: normal; 
+    font-weight: 400;
+} 
+
+.card__price { 
+    display: block;
+} 
+
+.card--default .card__price  { 
+    font-weight: 600;
+} 
+
+.card--default .card__price--sale  { 
+    font-weight: 700;
+} 
+
+.card--default .card__description  { 
+    display: none; 
+    margin-top: 8px !important;
+} 
+
+.card__buttons { 
+    margin-top: 8px;
+} 
+
+.card__buttons { 
+    border-radius: 0px !important;
+} 
+
+.card__img { 
+    position: absolute; 
+    width: 100%; 
+    height: 100%; 
+    top: 0; 
+    left: 0;
+} 
+
+.jdgm-widget *  { 
+    margin: 0; 
+    line-height: 1.4; 
+    -webkit-box-sizing: border-box; 
+    -moz-box-sizing: border-box; 
+    box-sizing: border-box; 
+    -webkit-overflow-scrolling: touch;
+} 
+
+.jdgm-prev-badge { 
+    display: block !important;
+} 
+
+.card--default .card__price *  { 
+    font-weight: 600;
+} 
+
+.card--default .card__price--sale span  { 
+    font-weight: 700;
+} 
+
+.card--default .card__price--sale .card__price--old {
+  font-weight: 600;
+  color: #2e84e3;
+  text-decoration: line-through;
+}
+
+.button--addToCart { 
+    text-transform: lowercase; 
+    font-size: 20px;
+} 
+
+.card__buttons .button  { 
+    width: 100%;
+} 
+
+.card__buttons .button  { 
+    width: unset; 
+    padding: 10px 20px; 
+    font-size: 14px;
+} 
+
+.card__tags { 
+    position: absolute; 
+    bottom: 10px; 
+    left: 10px; 
+    max-width: 50%; 
+    z-index: 1;
+} 
+
+.card__slider__parent { 
+    height: 100%; 
+    width: 100%;
+} 
+
+.jdgm-prev-badge__text { 
+    visibility: hidden;
+} 
+
+.jdgm-prev-badge__text { 
+    visibility: unset;
+} 
+
+.button *  { 
+    color: inherit;
+} 
+
+.button span  { 
+    line-height: 1em;
+} 
+
+.tag { 
+    padding: 4px 6px; 
+    background: #000; 
+    font-size: 12px; 
+    font-weight: bold; 
+    color: #ffffff; 
+    text-transform: uppercase; 
+    border-radius: var(--borderRadiusSmall); 
+    margin-bottom: 10px !important; 
+    text-align: center;
+} 
+
+.tag--sale { 
+    background: #eba141;
+} 
+
+.card__tags span  { 
+    display: block; 
+    word-break: break-word;
+} 
+
+span.tag.tag--sale { 
+    background: #84aa1d; 
+    font-size: 11.5px; 
+    border-radius: 50px; 
+    padding: 5px 10px; 
+    margin-bottom: 0px !important;
+} 
+
+[data-bstr-slide-holder] { 
+    overflow: hidden; 
+    overflow-x: scroll; 
+    -ms-overflow-style: none; 
+    scrollbar-width: none; 
+    scroll-behavior: smooth; 
+    scroll-snap-type: x mandatory; 
+    display: flex; 
+    flex-wrap: nowrap;
+} 
+
+.card__slider { 
+    height: 100%; 
+    width: 100%; 
+    flex-wrap: nowrap; 
+    display: flex; 
+    font-size: 0px;
+} 
+
+[data-bstr-slide-holder]:-webkit-scrollbar { 
+    display: none;
+} 
+
+button { 
+    font-family: inherit; 
+    font-size: 100%; 
+    line-height: 1.15; 
+    margin: 0; 
+    background: var(--inputFill); 
+    color: var(--inputContent); 
+    border: 1px solid #000; 
+    border-radius: var(--borderRadiusSmall);
+} 
+
+button { 
+    overflow: visible;
+} 
+
+button { 
+    text-transform: none;
+} 
+
+button { 
+    -webkit-appearance: button;
+} 
+
+.slider__button { 
+    position: absolute; 
+    left: 16px; 
+    top: 50%; 
+    margin-top: -25px; 
+    height: 40px; 
+    width: 40px; 
+    background: rgba(0,0,0,0.2); 
+    backdrop-filter: blur(15px); 
+    z-index: 2; 
+    color: white !important; 
+    transition: all 0.15s; 
+    border: 0px;
+} 
+
+.card--default .slider__button  { 
+    opacity: 0;
+} 
+
+button:hover { 
+    cursor: pointer;
+} 
+
+.slider__button:hover { 
+    background: rgba(0,0,0,0.6);
+} 
+
+.card--default:hover .slider__button { 
+    opacity: 0.4;
+} 
+
+.slider__button--next { 
+    left: auto; 
+    right: 16px;
+} 
+
+.jdgm-star { 
+    font-family: 'JudgemeStar'; 
+    display: inline !important; 
+    text-decoration: none !important; 
+    padding: 0 4px 0 0 !important; 
+    margin: 0 !important; 
+    font-weight: bold; 
+    opacity: 1; 
+    -webkit-font-smoothing: antialiased; 
+    -moz-osx-font-smoothing: grayscale;
+} 
+
+.jdgm-star { 
+    color: #000000;
+} 
+
+.jdgm-preview-badge .jdgm-star  { 
+    color: #000000;
+} 
+
+.jdgm-star.jdgm--on:before { 
+    content: "\e000";
+} 
+
+.jdgm-star:hover { 
+    opacity: 1;
+} 
+
+.jdgm-star:last-of-type { 
+    padding: 0 !important;
+} 
+
+[data-bstr-slide] { 
+    scroll-snap-align: start;
+} 
+
+.card__img--gallery { 
+    width: 100%; 
+    flex-shrink: 0;
+} 
+
+@media all{ 
+  [class^="uil-"]:before, [class*=" uil-"]::before { 
+    font-family: unicons-line; 
+    font-display: swap; 
+    font-style: normal; 
+    font-weight: 400; 
+    speak: none; 
+    display: inline-block; 
+    text-decoration: inherit; 
+    font-variant: normal; 
+    text-transform: none; 
+    line-height: 1; 
+    -webkit-font-smoothing: antialiased; 
+    -moz-osx-font-smoothing: grayscale;
+  } 
+
+  .uil-angle-left-b:before { 
+    content: '\ec49';
+  } 
+
+  [class^="uil-"]::before, [class*=" uil-"]::before { 
+    font-family: unicons-line; 
+    font-display: swap; 
+    font-style: normal; 
+    font-weight: 400; 
+    speak: none; 
+    display: inline-block; 
+    text-decoration: inherit; 
+    font-variant: normal; 
+    text-transform: none; 
+    line-height: 1; 
+    -webkit-font-smoothing: antialiased; 
+    -moz-osx-font-smoothing: grayscale;
+  } 
+
+  .uil-angle-right-b:before { 
+    content: '\eb9f';
+  } 
+}     
+
+img { 
+    border-style: none; 
+    max-width: 100%; 
+    height: auto;
+} 
+
+.card__img img  { 
+    height: 100%; 
+    width: 100%; 
+    transition: all .4s ease; 
+    object-fit: cover;
+} 
+
+.card--default:hover .card__img img { 
+    transform: scale(1.2);
+} 
+
+.card--default:hover .card__img .card__img--gallery img { 
+    transform: scale(1);
+} 
+/* Snip */
+.mySlides {
+  display: none;
+  height: 500px;
+  overflow: hidden;
+  width: 100%;
+}
+.banner-title-font{
+  color: #254f21 !important;
+}
+.banner-title {
+  width: 400px;
+  position: absolute;
+  top: 25%;
+  left: 25%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-family: 'ui-monospace';
+  font-size: xx-large;
+  font-weight: bolder;
+  text-transform: uppercase;
+}
+.w3-black, .w3-hover-black:hover {
+  color: #fff!important;
+  background-color: #79a207 !important;
+}
+.w3-button:hover {
+  color: #000!important;
+  background-color: #2e84e3 !important;
+}
+.w3-content {
+  max-width: 100%;
+}
+
+.top-header{
+  height: 40px;
+  background-color: #2E84E3;
+  text-align: center;
+  padding-top: 5px;
+}
+
+.top-header-a{
+color: white;
+letter-spacing: 0.5px;
+}
+
+#progress-circles-container{
+  margin-bottom: 15vh;
+  margin-top: -5vh;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  border-top-right-radius: 190px;
+  border-bottom-right-radius: 190px;
+  border-top-left-radius: 190px;
+  border-bottom-left-radius: 190px;
+}
+
+#circle{
+  background-image: url(../img/alepa/pure.jpg);
+  /* background-image:
+    linear-gradient(to bottom, rgba(245, 246, 252, 0.52), rgba(26, 25, 25, 0.73)),
+    url(../img/alepa/pure.jpg); */
+  background-size: cover;
+  background-position: center; 
+}
+#circle-pure{
+  background-image: url(../img/alepa/no-sugar.jpg);
+  background-size: cover; /* Scale the background image to cover the entire element */
+  background-position: center; /* Center the background image */
+}
+#circle-artificial{
+  background-image: url(../img/alepa/artificial.jpg);
+  background-size: cover; /* Scale the background image to cover the entire element */
+  background-position: center; /* Center the background image */
+}
+#arrow1{
+  background-image: url(../img/alepa/lab.jpg);
+  background-size: cover; /* Scale the background image to cover the entire element */
+  background-position: center; /* Center the background image */
+}
+.gap-between{
+  margin-top: 200px;
+}
+/* ajmal */
 body[data-rtl=rtl] {
   direction: rtl;
   text-align: right;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Montserrat";
   color: #333333;
   font-weight: 400;
   margin-top: 0;
   line-height: 1.2;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
 }
-
+h3{
+  font-size: small !important;
+  font-weight: 700;
+}
 h1 {
   font-size: 36px;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
 }
 @media only screen and (max-width: 767px) {
   h1 {
@@ -105,6 +1036,7 @@ h2 {
 
 h3 {
   font-size: 24px;
+  font-family: "Montserrat";
 }
 @media only screen and (max-width: 767px) {
   h3 {
@@ -1664,10 +2596,11 @@ ul.cart-items li {
   position: relative;
 }
 .main-menu > ul > li > a {
-  font-size: 15px;
+  font-size: 14px;
   line-height: 14px;
+  letter-spacing: 1.5px;
   font-weight: 600;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Montserrat";
   color: #333333;
   text-transform: uppercase;
   display: block;
@@ -1753,7 +2686,7 @@ ul.cart-items li {
   margin-bottom: 0;
 }
 .sub-menu li a {
-  font-family: "Open Sans", sans-serif;
+  font-family: Montserrat;
   color: #333333;
   display: block;
   font-size: 13px;

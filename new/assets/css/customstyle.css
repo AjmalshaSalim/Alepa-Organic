@@ -2,6 +2,7 @@ body{
     background: #fcfcf5 !important;
     font-family: Montserrat !important;
 }
+
 .mobile-header {
     display: flex;
 }
@@ -161,15 +162,16 @@ ul.dropdown li{
 }
 .btn.btn-shop {
     -webkit-appearance: none;
+    letter-spacing: 1px;
     -moz-appearance: none;
     appearance: none;
+    font-weight: 300;
     text-transform: capitalize;
     border-radius: 3px;
     padding: 6px;
     display: inline-flex;
     align-items: center;
     justify-content: center;
-   
     color: #ffffff;
     background-color:#2e84e3;
 
@@ -207,17 +209,17 @@ img.img-fluid.slider {
     color: #101427;
     font-size: 1.6rem;
     line-height: 1.5;
+    text-transform: uppercase;
 }
 .para-span
 {
     text-shadow: #007c85;
-    color: #9195a8;
+    color: #7e8292;
     font-size:16px;
     line-height:24px;
-    letter-spacing: 0px;
+    letter-spacing: 1px;
     text-transform: none;
     font-family: Montserrat;
-
 }
 .radio
 {
@@ -246,7 +248,8 @@ img.img-fluid.slider {
 }
 
         .circle {
-            box-shadow: 0px 0px 9px 0px hsl(211.49deg 76.37% 53.53%);
+            /* box-shadow: 0px 0px 9px 0px hsl(211.49deg 76.37% 53.53%); */
+            border: 1px solid #00000011;
             width: clamp(100px, 65%, 190px);
             aspect-ratio: 1/1;
             margin: auto;
@@ -259,7 +262,7 @@ img.img-fluid.slider {
     justify-content: center;
     justify-items: center;
     justify-self: center;
-    color: rgb(121 163 8);
+    color: #2E84E3;
     font-size: 2.3rem;
     align-items: center;
     align-self: center;

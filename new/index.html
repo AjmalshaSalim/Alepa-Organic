@@ -12,6 +12,11 @@
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
+
+
+
+
+
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 
 <!-- custom slider-->
@@ -23,7 +28,15 @@
   <link rel="stylesheet" href="assets/css/style.css">
   <link href="assets/css/customstyle.css" rel="stylesheet">
   <link href="assets/css/mediaquery.css" rel="stylesheet">
+<!-- <link href="assets/css/slider.css" rel="stylesheet"> -->
+<script src="assets/js/slider.js"></script>
+  <!--  -->
 
+
+  <!-- reels -->
+  <link rel="stylesheet" href="assets/css/reels.css">
+  <!-- reels -->
+  
 </head>
 <body>
     <div id="main-wrapper">
@@ -125,22 +138,22 @@
     
         <div class="w3-display-container mySlides">
           <img src="./assets/img/alepa/Banners/Common-Banner.jpg" style="width:100%">
-          <div class="banner-title"> <h1 class="banner-title-font">Honey is a sweet and viscous substance made by several.</h1> </div>
+          <div class="banner-title"> <h1 class="banner-title-font">Life is sweeter with a spoonful of honey</h1> </div>
         </div>
     
         <div class="w3-display-container mySlides">
           <img src="./assets/img/alepa/Banners/Multi-Floral.jpg" style="width:100%">
-          <div class="banner-title"><h1 class="banner-title-font">​Honey Multiflora is a sweet, thick liquid with light.</h1> </div>
+          <div class="banner-title"><h1 class="banner-title-font">Honey is the nectar of the garden</h1> </div>
         </div>
     
         <div class="w3-display-container mySlides">
           <img src="./assets/img/alepa/Banners/Wild-Forest.jpg" style="width:100%">
-          <div class="banner-title"><h1 class="banner-title-font">This is raw, unheated multi-flora honey derived from.</h1> </div>
+          <div class="banner-title"><h1 class="banner-title-font">Honey sweetens the wild forest</h1> </div>
         </div>
     
         <div class="w3-display-container mySlides">
           <img src="./assets/img/alepa/Banners/Stringless-Bee.jpg" style="width:100%">
-          <div class="banner-title"><h1 class="banner-title-font">Indian stingless Bees aka the Dammer bees" are one .</h1> </div>
+          <div class="banner-title"><h1 class="banner-title-font">Honey, nature's golden goodness</h1> </div>
         </div>
     
         <button class="w3-button w3-display-left w3-black" onclick="plusDivs(-1)">&#10094;</button>
@@ -205,175 +218,365 @@
     </div>
 </section>  
 
- <!-- Cards -->
- <div class="custom-card-container">
-    <div class="row layout__content s__content snipcss-hSHTg">
-        <div class="col-12 column center section__heading">
-            <div class="section__heading--heading">
-                <h2 class="h-reset font__family--title">OUR PRODUCTS</h2>
+<!-- Cards With Slider  -->
+<div
+class="product-section section pt-100 pt-lg-80 pt-md-70 pt-sm-60 pt-xs-50 pb-65 pb-lg-45 pb-md-35 pb-sm-25 pb-xs-15">
+<div class="container">
+
+    <div class="row">
+        <!-- Section Title Start -->
+        <div class="col">
+            <div class="section-title mb-40 mb-xs-20">
+                <h2 style="text-align: center; font-size: large; padding-bottom: 10px; font-weight: 500;">Our Products</h2>
             </div>
         </div>
-        <div class="row">
-            <div class="col-6 col-md-3 card--holder">
-                <div class="card--default  card--none">
-                    <a class="card__img--container" href="./Multifloral.html">
-                        <div class="card__img--ratio">
-                            <div class="card__img" data-booster-slider="" data-current-slide="0" data-total-slides="7">
-                                <div class="card__tags">
-                                    <span class="tag tag--sale">sale</span>
-                                </div>
-                                <div class="card__slider__parent" data-bstr-slider="product-card-8628499874065" >
-                                    <div class="card__slider" data-bstr-slider-orientation="horizontal" data-bstr-slide-holder="1" data-bstr-slider-current="0" data-bstr-slider-id="product-card-8628499874065">
-                                        <div data-bstr-slide="active" class="card__img--gallery">
-                                            <img loading="lazy" src="./assets/img/alepa/Multifloral jpg/_69A3495.jpg" >
-                                        </div>
-                                        <div data-bstr-slide="" class="card__img--gallery">
-                                            <img loading="lazy" src="./assets/img/alepa/Multifloral jpg/_69A3495-preview.png"  data-sizes="(max-width: 767px) 50vw, 25vw" height="1536" width="1536" >
-                                        </div>
-                                        <div data-bstr-slide="" class="card__img--gallery">
-                                            <img loading="lazy" src="./assets/img/alepa/Multifloral jpg/_69A3503.jpg" " data-sizes="(max-width: 767px) 50vw, 25vw" height="1536" width="1536" >
-                                        </div>
-                                        <div data-bstr-slide="" class="card__img--gallery">
-                                            <img loading="lazy" src="./assets/img/alepa/Multifloral jpg/_69A3504.jpg"" data-sizes="(max-width: 767px) 50vw, 25vw" height="1536" width="1536" >
-                                        </div>
-                                        
-                                    </div>
-                                    <button data-bstr-slider-button="-" class="slider__button hide-mobile" aria-label="Previous"><i class="uil uil-angle-left-b"></i></button>
-                                    <button data-bstr-slider-button="+" class="slider__button slider__button--next hide-mobile" aria-label="Next"><i class="uil uil-angle-right-b"></i></button>
-                                </div>
-                            </div>
+        <!-- Section Title End -->
+    </div>
+    <div class="product-slider tf-element-carousel" data-slick-options='{
+    "slidesToShow": 3,
+    "slidesToScroll": 1,
+    "infinite": true,
+    "arrows": true,
+    "prevArrow": {"buttonClass": "slick-btn slick-prev", "iconClass": "fa fa-angle-left" },
+    "nextArrow": {"buttonClass": "slick-btn slick-next", "iconClass": "fa fa-angle-right" }
+    }' data-slick-responsive='[
+    {"breakpoint":1199, "settings": {
+    "slidesToShow": 3
+    }},
+    {"breakpoint":992, "settings": {
+    "slidesToShow": 2
+    }},
+    {"breakpoint":768, "settings": {
+    "slidesToShow": 1,
+    "arrows": false,
+    "autoplay": true
+    }},
+    {"breakpoint":576, "settings": {
+    "slidesToShow": 1,
+    "arrows": false,
+    "autoplay": true
+    }}
+    ]'>
+        
+        
+        <div class="col-lg-3">
+            <!-- Single Product Start -->
+            <div class="single-product mb-30">
+                <div class="product-img">
+                    <a href="single-product.html">
+                        <div class="card_slider">
+                            <ul class="slider">
+                                <li>
+                                    <figure class="custom-figure">
+                                        <img src="./assets/img/alepa/Multifloral jpg/multi-floral-main.jpg" alt="" />
+                                    </figure>
+
+                                </li>
+                                <li>                                 
+                                    <figure class="custom-figure">
+                                        <img src="./assets/img/alepa/Multifloral jpg/_69A3495.jpg" alt="" />
+                                    </figure>
+                                    
+                                </li>
+                                <li>
+                                    <figure class="custom-figure">
+                                        <img src="./assets/img/alepa/Multifloral jpg/_69A3495-preview.png" alt="" />
+                                    </figure>
+                                    
+                                </li>
+                                <li>
+                                    <figure class="custom-figure">
+                                        <img src="./assets/img/alepa/Multifloral jpg/_69A3503.jpg" alt="" />
+                                    </figure>
+                                    
+                                </li>
+                                <li>
+                                    <figure class="custom-figure">
+                                        <img src="./assets/img/alepa/Multifloral jpg/_69A3504.jpg" alt="" />
+                                    </figure>
+                                    
+                                </li>
+                            </ul>
                         </div>
                     </a>
-                    <div class="card__info">
-                        <a class="card__brand" href="#"> Alepa Organics </a>
-                        <span class="shopify-product-reviews-badge" data-id="8628499874065"></span>
-                        <div style="" class="jdgm-widget jdgm-preview-badge jdgm--done-setup" data-id="8628499874065" data-auto-install="false">
-                            <div style="display:none" class="jdgm-prev-badge" data-average-rating="4.79" data-number-of-reviews="24" data-number-of-questions="0"> <span class="jdgm-prev-badge__stars" data-score="4.79" tabindex="0" aria-label="4.79 stars" role="button"> <span class="jdgm-star jdgm--on"></span><span class="jdgm-star jdgm--on"></span><span class="jdgm-star jdgm--on"></span><span class="jdgm-star jdgm--on"></span><span class="jdgm-star jdgm--on"></span> </span> <span class="jdgm-prev-badge__text">24 reviews</span> </div>
-                        </div>
-                        <a class="card__title" href="/products/ajwain-raw-honey"> Multifloral Honey </a>
-                        <span class="card__price card__price--sale"> from <span class="jsPrice">Rs. 1288.00</span>
-                            <span class="card__price--old jsPrice"> Rs. 1342.00 </span>
-                        </span>
-                        <div class="card__buttons">
-                            <a href="#" class="button button--addToCart button--primary button--ghost button--primary__ghost" >
-                                <span>Add to cart</span>
-                            </a>
-                        </div>
+                    <span class="descount-sticker">-10%</span>
+                    <span class="sticker">New</span>
+                    <div class="product-action d-flex justify-content-between">
+                        <a class="product-btn" href="#">Add to Cart</a>
+                        <ul class="d-flex">
+                            <li><a href="#quick-view-modal-container" data-bs-toggle="modal" title="Quick View"><i class="fa fa-eye"></i></a></li>
+                            <li><a href="#"><i class="fa fa-heart-o"></i></a></li>
+                            <li><a href="#"><i class="fa fa-exchange"></i></a></li>
+                        </ul>
                     </div>
                 </div>
-            </div>
-            <div class="col-6 col-md-3 card--holder">
-                <div class="card--default  card--none">
-                    <a class="card__img--container" href="/products/himalayan-forest-raw-honey">
-                        <div class="card__img--ratio">
-                            <div class="card__img" data-booster-slider="" data-current-slide="0" data-total-slides="6">
-                                <div class="card__tags">
-                                    <span class="tag tag--sale">sale</span>
-                                </div>
-                                <div class="card__slider__parent" data-bstr-slider="product-card-8628500562193" >
-                                    <div class="card__slider" data-bstr-slider-orientation="horizontal" data-bstr-slide-holder="1" data-bstr-slider-current="0" data-bstr-slider-id="product-card-8628500562193">
-                                        <div data-bstr-slide="active" class="card__img--gallery">
-                                            <img loading="lazy" src="./assets/img/alepa/stinglessbee Honey/_69A3513.jpg"  data-sizes="(max-width: 767px) 50vw, 25vw" alt="Himalayan Forest Raw Honey" height="1653" width="2480" class="lazyload ">
-                                        </div>
-                                        <div data-bstr-slide="" class="card__img--gallery">
-                                            <img loading="lazy" src="./assets/img/alepa/stinglessbee Honey/_69A3513-preview.png"  data-sizes="(max-width: 767px) 50vw, 25vw" alt="Himalayan Forest Raw Honey" height="1653" width="2480" class="lazyload ">
-                                        </div>
-                                        <div data-bstr-slide="" class="card__img--gallery">
-                                            <img loading="lazy" src="./assets/img/alepa/stinglessbee Honey/_69A3517.jpg"  data-sizes="(max-width: 767px) 50vw, 25vw" alt="Himalayan Forest Raw Honey" height="1651" width="2477" class="lazyload ">
-                                        </div>
-                                        <div data-bstr-slide="" class="card__img--gallery">
-                                            <img loading="lazy" src="./assets/img/alepa/stinglessbee Honey/_69A3519.jpg"  data-sizes="(max-width: 767px) 50vw, 25vw" alt="Himalayan Forest Raw Honey" height="1651" width="2477" class="lazyload ">
-                                        </div>
-                                       
-                                    </div>
-                                    <button data-bstr-slider-button="-" class="slider__button hide-mobile" aria-label="Previous"><i class="uil uil-angle-left-b"></i></button>
-                                    <button data-bstr-slider-button="+" class="slider__button slider__button--next hide-mobile" aria-label="Next"><i class="uil uil-angle-right-b"></i></button>
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                    <div class="card__info">
-                        <a class="card__brand" href="#"> Alepa Organics </a>
-                        <span class="shopify-product-reviews-badge" data-id="8628500562193"></span>
-                        <div class="jdgm-widget jdgm-preview-badge jdgm--done-setup" data-id="8628500562193" data-auto-install="false">
-                            <div style="display:none" class="jdgm-prev-badge" data-average-rating="4.92" data-number-of-reviews="12" data-number-of-questions="0"> <span class="jdgm-prev-badge__stars" data-score="4.92" tabindex="0" aria-label="4.92 stars" role="button"> <span class="jdgm-star jdgm--on"></span><span class="jdgm-star jdgm--on"></span><span class="jdgm-star jdgm--on"></span><span class="jdgm-star jdgm--on"></span><span class="jdgm-star jdgm--on"></span> </span> <span class="jdgm-prev-badge__text">12 reviews</span> </div>
-                        </div>
-                        <a class="card__title" href="/products/himalayan-forest-raw-honey"> Stingless Bee Honey </a>
-                        <span class="card__price card__price--sale"> from <span class="jsPrice">Rs. 1333.00</span>
-                            <span class="card__price--old jsPrice"> Rs. 1379.00 </span>
-                        </span>
-                        <div class="card__description "> Himalayan Forest honey comes from the nectar of wild forest flowers. These wildflowers grow naturally, without human interference. That's why this honey has a unique nutritional value and unique taste. Lovers of forest honey say that whenever they eat this honey, they can almost see a beautiful forest right in front of their eyes! Tall green trees, with sunlight filtering in like a dream... The beauty of nature at its best! Enjoy this 100% raw, natural, pure, and unprocessed honey with sweets, breakfast, or just with water!" This honey may Crystallize over a period and it is completely natural. </div>
-                        <div class="card__buttons">
-                            <a href="/products/himalayan-forest-raw-honey" class="button button--addToCart button--primary 
-    
-    button--ghost button--primary__ghost
-     " onclick="BoosterTheme.ELEMENTS.quickBuy(event)">
-                                <span>Add to cart</span>
-                            </a>
-                        </div>
+                <div class="product-content">
+                    <h3><a href="single-product.html">Multifloral Honey</a></h3>
+                    <div class="ratting">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
                     </div>
+                        <h5>Qty - 250 gm</h5>
+                    <h4 class="price"><span class="new">₹369.00</span><span
+                            class="old">₹429.00</span></h4>
                 </div>
             </div>
-            <div class="col-6 col-md-3 card--holder">
-                <div class="card--default  card--none">
-                    <a class="card__img--container" href="/products/himalayan-forest-raw-honey">
-                        <div class="card__img--ratio">
-                            <div class="card__img" data-booster-slider="" data-current-slide="0" data-total-slides="6">
-                                <div class="card__tags">
-                                    <span class="tag tag--sale">sale</span>
-                                </div>
-                                <div class="card__slider__parent" data-bstr-slider="product-card-8628500562193" data-bstr-initd="true">
-                                    <div class="card__slider" data-bstr-slider-orientation="horizontal" data-bstr-slide-holder="1" data-bstr-slider-current="0" data-bstr-slider-id="product-card-8628500562193">
-                                        <div data-bstr-slide="active" class="card__img--gallery">
-                                            <img src="./assets/img/alepa/wildforest/_69A3505.jpg"  data-sizes="(max-width: 767px) 50vw, 25vw" height="1653" width="2480">
-                                        </div>
-                                        <div data-bstr-slide="" class="card__img--gallery">
-                                            <img src="./assets/img/alepa/wildforest/_69A3505-preview.png"  data-sizes="(max-width: 767px) 50vw, 25vw" height="1653" width="2480">
-                                        </div>
-                                        <div data-bstr-slide="" class="card__img--gallery">
-                                            <img src="./assets/img/alepa/wildforest/_69A3509.jpg"  data-sizes="(max-width: 767px) 50vw, 25vw" height="1651" width="2477">
-                                        </div>
-                                        <div data-bstr-slide="" class="card__img--gallery">
-                                            <img src="./assets/img/alepa/wildforest/_69A3512.jpg"  data-sizes="(max-width: 767px) 50vw, 25vw" height="1651" width="2477">
-                                        </div>
-                                       
-                                    </div>
-                                    <button data-bstr-slider-button="-" class="slider__button hide-mobile" aria-label="Previous"><i class="uil uil-angle-left-b"></i></button>
-                                    <button data-bstr-slider-button="+" class="slider__button slider__button--next hide-mobile" aria-label="Next"><i class="uil uil-angle-right-b"></i></button>
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                    <div class="card__info">
-                        <a class="card__brand" href="#"> Alepa Organics </a>
-                        <span class="shopify-product-reviews-badge" data-id="8628500562193"></span>
-                        <div style="" class="jdgm-widget jdgm-preview-badge jdgm--done-setup" data-id="8628500562193" data-auto-install="false">
-                            <div style="display:none" class="jdgm-prev-badge" data-average-rating="4.92" data-number-of-reviews="12" data-number-of-questions="0"> <span class="jdgm-prev-badge__stars" data-score="4.92" tabindex="0" aria-label="4.92 stars" role="button"> <span class="jdgm-star jdgm--on"></span><span class="jdgm-star jdgm--on"></span><span class="jdgm-star jdgm--on"></span><span class="jdgm-star jdgm--on"></span><span class="jdgm-star jdgm--on"></span> </span> <span class="jdgm-prev-badge__text">12 reviews</span> </div>
-                        </div>
-                        <a class="card__title" href="#"> Stingless Bee Honey </a>
-                        <span class="card__price card__price--sale"> from <span class="jsPrice">Rs. 1203.00</span>
-                            <span class="card__price--old jsPrice"> Rs. 1679.00 </span>
-                        </span>
-                        <div class="card__description "> Himalayan Forest honey comes from the nectar of wild forest flowers. These wildflowers grow naturally, without human interference. That's why this honey has a unique nutritional value and unique taste. Lovers of forest honey say that whenever they eat this honey, they can almost see a beautiful forest right in front of their eyes! Tall green trees, with sunlight filtering in like a dream... The beauty of nature at its best! Enjoy this 100% raw, natural, pure, and unprocessed honey with sweets, breakfast, or just with water!" This honey may Crystallize over a period and it is completely natural. </div>
-                        <div class="card__buttons">
-                            <a href="/products/himalayan-forest-raw-honey" class="button button--addToCart button--primary 
-    
-    button--ghost button--primary__ghost
-     " onclick="BoosterTheme.ELEMENTS.quickBuy(event)">
-                                <span>Add to cart</span>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            <!-- Single Product End -->
             
         </div>
-        <div class="col-12 showMore center">
-            <a class="button button--primary button--ghost  button--primary__ghost " href="/collections/musthave">Show more</a>
+
+        <div class="col-lg-3">
+            <!-- Single Product Start -->
+            <div class="single-product mb-30">
+                <div class="product-img">
+                    <a href="single-product.html">
+                        <div class="card_slider">
+                            <ul class="slider">
+                                <li>
+                                    <figure class="custom-figure">
+                                        <img src="./assets/img/alepa/wildforest/Forest honey .png" alt="" />
+                                    </figure>
+
+                                </li>
+                                <li>                                 
+                                    <figure class="custom-figure">
+                                        <img src="./assets/img/alepa/wildforest/_69A3505-preview.png" alt="" />
+                                    </figure>
+                                    
+                                </li>
+                                <li>
+                                    <figure class="custom-figure">
+                                        <img src="./assets/img/alepa/wildforest/_69A3505.jpg" alt="" />
+                                    </figure>
+                                    
+                                </li>
+                                <li>
+                                    <figure class="custom-figure">
+                                        <img src="./assets/img/alepa/wildforest/_69A3509.jpg" alt="" />
+                                    </figure>
+                                    
+                                </li>
+                                <li>
+                                    <figure class="custom-figure">
+                                        <img src="./assets/img/alepa/wildforest/_69A3512.jpg" alt="" />
+                                    </figure>
+                                    
+                                </li>
+                            </ul>
+                        </div>
+                    </a>
+                    <span class="descount-sticker">-10%</span>
+                    <span class="sticker">New</span>
+                    <div class="product-action d-flex justify-content-between">
+                        <a class="product-btn" href="#">Add to Cart</a>
+                        <ul class="d-flex">
+                            <li><a href="#quick-view-modal-container" data-bs-toggle="modal" title="Quick View"><i class="fa fa-eye"></i></a></li>
+                            <li><a href="#"><i class="fa fa-heart-o"></i></a></li>
+                            <li><a href="#"><i class="fa fa-exchange"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="product-content">
+                    <h3><a href="single-product.html">Multifloral Honey</a></h3>
+                    <div class="ratting">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                    </div>
+                        <h5>Qty - 250 gm</h5>
+                    <h4 class="price"><span class="new">₹389.00</span><span
+                            class="old">₹449.00</span></h4>
+                </div>
+            </div>
+            <!-- Single Product End -->
+            
         </div>
+        
+        <div class="col-lg-3">
+            <!-- Single Product Start -->
+            <div class="single-product mb-30">
+                <div class="product-img">
+                    <a href="single-product.html">
+                        <div class="card_slider">
+                            <ul class="slider">
+                                <li>
+                                    <figure class="custom-figure">
+                                        <img src="./assets/img/alepa/stinglessbee Honey/Stingless bee honey .jpg" alt="" />
+                                    </figure>
+
+                                </li>
+                                <li>
+                                    <figure class="custom-figure">
+                                        <img src="./assets/img/alepa/stinglessbee Honey/Stingless Bee 2-1.jpg" alt="" />
+                                    </figure>
+                                    
+                                </li>
+                                <li>                                 
+                                    <figure class="custom-figure">
+                                        <img src="./assets/img/alepa/stinglessbee Honey/_69A3513-preview.png" alt="" />
+                                    </figure>
+                                    
+                                </li>
+                                <li>
+                                    <figure class="custom-figure">
+                                        <img src="./assets/img/alepa/stinglessbee Honey/_69A3513.jpg" alt="" />
+                                    </figure>
+                                    
+                                </li>
+                                <li>
+                                    <figure class="custom-figure">
+                                        <img src="./assets/img/alepa/stinglessbee Honey/_69A3517.jpg" alt="" />
+                                    </figure>
+                                    
+                                </li>
+                                <li>
+                                    <figure class="custom-figure">
+                                        <img src="./assets/img/alepa/stinglessbee Honey/_69A3519.jpg" alt="" />
+                                    </figure>
+                                    
+                                </li>
+                            </ul>
+                        </div>
+                    </a>
+                    <span class="descount-sticker">-10%</span>
+                    <span class="sticker">New</span>
+                    <div class="product-action d-flex justify-content-between">
+                        <a class="product-btn" href="#">Add to Cart</a>
+                        <ul class="d-flex">
+                            <li><a href="#quick-view-modal-container" data-bs-toggle="modal" title="Quick View"><i class="fa fa-eye"></i></a></li>
+                            <li><a href="#"><i class="fa fa-heart-o"></i></a></li>
+                            <li><a href="#"><i class="fa fa-exchange"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="product-content">
+                    <h3><a href="single-product.html">Stingless bee Honey</a></h3>
+                    <div class="ratting">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                    </div>
+                        <h5>Qty - 250 gm</h5>
+                    <h4 class="price"><span class="new">₹999.00</span><span
+                            class="old">₹1149.00</span></h4>
+                </div>
+            </div>
+            <!-- Single Product End -->
+            
+        </div>
+        
     </div>
- </div>
-<!-- Cards -->
+</div>
+</div>
+<!-- Cards With Slider  -->
+
+ <!-- Reels Video Section  -->
+ <div id="quinn-cards-1" class="quinn_cards snipcss-LoXWB">
+    <div renderchildren="true" classname="" class="svelte-nq3wdf style-ZtZPQ" dataid="" dataindex="Infinity" jsonkey="12vsoBVLWW" data-events="[]" id="style-ZtZPQ">
+        <div renderchildren="true" classname="" id="cards-carousel-header" class="svelte-nq3wdf style-mHppD" dataid="" dataindex="Infinity" jsonkey="mnNxxABppw" data-events="[]"></div>
+        <div class="quinn-cards-stories-carousel-body quinn-cards-desktop svelte-zdr2s4 style-yewQN" id="style-yewQN">
+            <div class="svelte-y7vkdd" containerel="[object HTMLDivElement]">
+                <div renderchildren="true" renderself="true" classname="" class="svelte-nq3wdf style-c6WBO" dataid="clv3u16hq0019nqtu83yyyfj2cards" dataindex="0" jsonkey="oM2T_Qx3ex" data-events="[]" id="style-c6WBO">
+                    <div renderchildren="true" renderself="true" classname="" class="svelte-nq3wdf style-H9N5n" dataid="clv3u16hq0019nqtu83yyyfj2cards" dataindex="0" jsonkey="o3KT2R_8lv" data-events="[]" id="style-H9N5n">
+                        <div mediatype="video" class="quinn_card_loading quinn_story_loading svelte-nq3wdf style-RqK4X" jsonkey="LQpQ74Z2fP" issafari="false" isimagemedia="false" data-events="[]" id="style-RqK4X">
+                            <div class="quinn_video-container svelte-jk0m5r style-G4JEQ" id="style-G4JEQ"><video preload="none" loop="true" autoplay="true" playsinline="true" muted="true" mediatype="video" class="svelte-jk0m5r style-YIeEv" jsonkey="LQpQ74Z2fP" issafari="false" isimagemedia="false" src="https://ueirorganic.com/cdn/shop/files/quinn_mgcm9ey8af4gjaj4sfnmh7ak.mp4" id="style-YIeEv"></video> </div>
+                        </div>
+                    </div>
+                    <div renderchildren="true" renderself="true" classname="" class="svelte-nq3wdf style-WP1zl" dataid="clv3u16hq0019nqtu83yyyfj2cards" dataindex="0" jsonkey="WA8sNIvMDI" data-events="[]" id="style-WP1zl"><img loading="lazy" alt="" src="https://cdn.shopify.com/s/files/1/0744/3231/5690/files/FingerMilletNoodles_80x80.png?v=1715690952" customsrc="" componentname="WidgetImage" dataindex="0" jsonkey="zMnordkXQE" id="style-N329k" class="style-N329k">
+                        <div renderchildren="true" renderself="true" classname="" class="svelte-nq3wdf style-cR1oQ" dataid="clv3u16hq0019nqtu83yyyfj2cards" dataindex="0" jsonkey="Wk4Y21y471" data-events="[]" id="style-cR1oQ">
+                            <p text="Story title/subtitle" componentname="WidgetText" jsonkey="K3O0IIxLJ0" class="svelte-1rxewty style-3foXE" id="style-3foXE">Finger Millet Noodles / Ragi Noodles 180g</p>
+                            <div renderchildren="true" renderself="true" classname="" class="svelte-nq3wdf style-XnBQk" dataid="clv3u16hq0019nqtu83yyyfj2cards" dataindex="0" jsonkey="VUNZ1i16ue" data-events="[]" id="style-XnBQk"><span tagname="span" text="Rs 399" componentname="WidgetPrice" textsource="" dataindex="0" jsonkey="Yzv2GSqPnf" class="svelte-1rxewty style-XbvPs" id="style-XbvPs">₹ 329</span><span tagname="span" text="Rs 799" componentname="WidgetCutoffPrice" textsource="" class="quinn_widget_cutoff_price svelte-1rxewty style-FYQA5" dataindex="0" jsonkey="e93kUibvAX" id="style-FYQA5">₹ 405</span></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="svelte-y7vkdd" containerel="[object HTMLDivElement]">
+                <div renderchildren="true" renderself="true" classname="" class="svelte-nq3wdf style-b5Byy" dataid="p2vbt5bkoyshrdw4bifhtxsecards" dataindex="1" jsonkey="oM2T_Qx3ex" data-events="[]" id="style-b5Byy">
+                    <div renderchildren="true" renderself="true" classname="" class="svelte-nq3wdf style-NALyl" dataid="p2vbt5bkoyshrdw4bifhtxsecards" dataindex="1" jsonkey="o3KT2R_8lv" data-events="[]" id="style-NALyl">
+                        <div mediatype="video" class="quinn_card_loading quinn_story_loading svelte-nq3wdf style-THWkN" jsonkey="LQpQ74Z2fP" issafari="false" isimagemedia="false" data-events="[]" id="style-THWkN">
+                            <div class="quinn_video-container svelte-jk0m5r style-bMQEc" id="style-bMQEc"><video preload="none" loop="true" autoplay="true" playsinline="true" muted="true" mediatype="video" class="svelte-jk0m5r style-zBLPa" jsonkey="LQpQ74Z2fP" issafari="false" isimagemedia="false" src="https://ueirorganic.com/cdn/shop/files/quinn_benfzuswfwcif9crlom9xuz4.mp4" id="style-zBLPa"></video> </div>
+                        </div>
+                    </div>
+                    <div renderchildren="true" renderself="true" classname="" class="svelte-nq3wdf style-WGgzQ" dataid="p2vbt5bkoyshrdw4bifhtxsecards" dataindex="1" jsonkey="WA8sNIvMDI" data-events="[]" id="style-WGgzQ"><img loading="lazy" alt="" src="https://cdn.shopify.com/s/files/1/0744/3231/5690/files/GroundnutOil_80x80.jpg?v=1688731984" customsrc="" componentname="WidgetImage" dataindex="1" jsonkey="zMnordkXQE" id="style-VPbIE" class="style-VPbIE">
+                        <div renderchildren="true" renderself="true" classname="" class="svelte-nq3wdf style-1JYnL" dataid="p2vbt5bkoyshrdw4bifhtxsecards" dataindex="1" jsonkey="Wk4Y21y471" data-events="[]" id="style-1JYnL">
+                            <p text="Story title/subtitle" componentname="WidgetText" jsonkey="K3O0IIxLJ0" class="svelte-1rxewty style-jlo5Q" id="style-jlo5Q">Groundnut Oil / Kadalai Ennai</p>
+                            <div renderchildren="true" renderself="true" classname="" class="svelte-nq3wdf style-1SKtG" dataid="p2vbt5bkoyshrdw4bifhtxsecards" dataindex="1" jsonkey="VUNZ1i16ue" data-events="[]" id="style-1SKtG"><span tagname="span" text="Rs 399" componentname="WidgetPrice" textsource="" dataindex="1" jsonkey="Yzv2GSqPnf" class="svelte-1rxewty style-H7V2o" id="style-H7V2o">₹ 488</span><span tagname="span" text="Rs 799" componentname="WidgetCutoffPrice" textsource="" class="quinn_widget_cutoff_price svelte-1rxewty style-SbhOZ" dataindex="1" jsonkey="e93kUibvAX" id="style-SbhOZ">₹ 559</span></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="svelte-y7vkdd" containerel="[object HTMLDivElement]">
+                <div renderchildren="true" renderself="true" classname="" class="svelte-nq3wdf style-FvE8a" dataid="ep230gnezym4584jkvd143lvcards" dataindex="2" jsonkey="oM2T_Qx3ex" data-events="[]" id="style-FvE8a">
+                    <div renderchildren="true" renderself="true" classname="" class="svelte-nq3wdf style-RQTgS" dataid="ep230gnezym4584jkvd143lvcards" dataindex="2" jsonkey="o3KT2R_8lv" data-events="[]" id="style-RQTgS">
+                        <div mediatype="video" class="quinn_card_loading quinn_story_loading svelte-nq3wdf style-kiRvD" jsonkey="LQpQ74Z2fP" issafari="false" isimagemedia="false" data-events="[]" id="style-kiRvD">
+                            <div class="quinn_video-container svelte-jk0m5r style-brxGC" id="style-brxGC"><video preload="none" loop="true" autoplay="true" playsinline="true" muted="true" mediatype="video" class="svelte-jk0m5r style-rrjS8" jsonkey="LQpQ74Z2fP" issafari="false" isimagemedia="false" src="https://ueirorganic.com/cdn/shop/files/quinn_lzfl2tuudfpwsfajkvge6au9.mp4" id="style-rrjS8"></video> </div>
+                        </div>
+                    </div>
+                    <div renderchildren="true" renderself="true" classname="" class="svelte-nq3wdf style-1ZYvX" dataid="ep230gnezym4584jkvd143lvcards" dataindex="2" jsonkey="WA8sNIvMDI" data-events="[]" id="style-1ZYvX"><img loading="lazy" alt="" src="https://cdn.shopify.com/s/files/1/0744/3231/5690/files/a2desicowghee_80x80.jpg?v=1697902974" customsrc="" componentname="WidgetImage" dataindex="2" jsonkey="zMnordkXQE" id="style-vvDlJ" class="style-vvDlJ">
+                        <div renderchildren="true" renderself="true" classname="" class="svelte-nq3wdf style-yTD9z" dataid="ep230gnezym4584jkvd143lvcards" dataindex="2" jsonkey="Wk4Y21y471" data-events="[]" id="style-yTD9z">
+                            <p text="Story title/subtitle" componentname="WidgetText" jsonkey="K3O0IIxLJ0" class="svelte-1rxewty style-l3d8f" id="style-l3d8f">A2 Desi Cow Ghee | Nattu Mattu Nei</p>
+                            <div renderchildren="true" renderself="true" classname="" class="svelte-nq3wdf style-AQmTV" dataid="ep230gnezym4584jkvd143lvcards" dataindex="2" jsonkey="VUNZ1i16ue" data-events="[]" id="style-AQmTV"><span tagname="span" text="Rs 399" componentname="WidgetPrice" textsource="" dataindex="2" jsonkey="Yzv2GSqPnf" class="svelte-1rxewty style-FnOFR" id="style-FnOFR">₹ 999</span><span tagname="span" text="Rs 799" componentname="WidgetCutoffPrice" textsource="" class="quinn_widget_cutoff_price svelte-1rxewty style-n1mjQ" dataindex="2" jsonkey="e93kUibvAX" id="style-n1mjQ">₹ 2,581</span></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="svelte-y7vkdd" containerel="[object HTMLDivElement]">
+                <div renderchildren="true" renderself="true" classname="" class="svelte-nq3wdf style-XQiKV" dataid="cxzervulwhsauc4xausfeavjcards" dataindex="3" jsonkey="oM2T_Qx3ex" data-events="[]" id="style-XQiKV">
+                    <div renderchildren="true" renderself="true" classname="" class="svelte-nq3wdf style-vFY7j" dataid="cxzervulwhsauc4xausfeavjcards" dataindex="3" jsonkey="o3KT2R_8lv" data-events="[]" id="style-vFY7j">
+                        <div mediatype="video" class="quinn_card_loading quinn_story_loading svelte-nq3wdf style-rlOG2" jsonkey="LQpQ74Z2fP" issafari="false" isimagemedia="false" data-events="[]" id="style-rlOG2">
+                            <div class="quinn_video-container svelte-jk0m5r style-AMyWI" id="style-AMyWI"><video preload="none" loop="true" autoplay="true" playsinline="true" muted="true" mediatype="video" class="svelte-jk0m5r style-jxVMO" jsonkey="LQpQ74Z2fP" issafari="false" isimagemedia="false" src="https://ueirorganic.com/cdn/shop/files/quinn_x6e9nxl6eiucy11sea76jlg2.mp4" id="style-jxVMO"></video> </div>
+                        </div>
+                    </div>
+                    <div renderchildren="true" renderself="true" classname="" class="svelte-nq3wdf style-4BP1p" dataid="cxzervulwhsauc4xausfeavjcards" dataindex="3" jsonkey="WA8sNIvMDI" data-events="[]" id="style-4BP1p"><img loading="lazy" alt="" src="https://cdn.shopify.com/s/files/1/0744/3231/5690/files/beee7812-e2cd-44f4-916d-c0289a73ff87_80x80.jpg?v=1684835021" customsrc="" componentname="WidgetImage" dataindex="3" jsonkey="zMnordkXQE" id="style-p6CA8" class="style-p6CA8">
+                        <div renderchildren="true" renderself="true" classname="" class="svelte-nq3wdf style-hoIWk" dataid="cxzervulwhsauc4xausfeavjcards" dataindex="3" jsonkey="Wk4Y21y471" data-events="[]" id="style-hoIWk">
+                            <p text="Story title/subtitle" componentname="WidgetText" jsonkey="K3O0IIxLJ0" class="svelte-1rxewty style-N9ZsS" id="style-N9ZsS">Mappillai Samba Rice Semiya 250G</p>
+                            <div renderchildren="true" renderself="true" classname="" class="svelte-nq3wdf style-181fD" dataid="cxzervulwhsauc4xausfeavjcards" dataindex="3" jsonkey="VUNZ1i16ue" data-events="[]" id="style-181fD"><span tagname="span" text="Rs 399" componentname="WidgetPrice" textsource="" dataindex="3" jsonkey="Yzv2GSqPnf" class="svelte-1rxewty style-tUDL3" id="style-tUDL3">₹ 139</span></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="svelte-y7vkdd" containerel="[object HTMLDivElement]">
+                <div renderchildren="true" renderself="true" classname="" class="svelte-nq3wdf style-vloO7" dataid="rw92e0dh421wjwf7qhrsrt51cards" dataindex="4" jsonkey="oM2T_Qx3ex" data-events="[]" id="style-vloO7">
+                    <div renderchildren="true" renderself="true" classname="" class="svelte-nq3wdf style-nWgOT" dataid="rw92e0dh421wjwf7qhrsrt51cards" dataindex="4" jsonkey="o3KT2R_8lv" data-events="[]" id="style-nWgOT">
+                        <div mediatype="video" class="quinn_card_loading quinn_story_loading svelte-nq3wdf style-5joQW" jsonkey="LQpQ74Z2fP" issafari="false" isimagemedia="false" data-events="[]" id="style-5joQW">
+                            <div class="quinn_video-container svelte-jk0m5r style-qQmoF" id="style-qQmoF"><video preload="none" loop="true" autoplay="true" playsinline="true" muted="true" mediatype="video" class="svelte-jk0m5r style-dzBQ8" jsonkey="LQpQ74Z2fP" issafari="false" isimagemedia="false" src="https://ueirorganic.com/cdn/shop/files/quinn_uylan7tv3qhrowe279sk8whm.mp4" id="style-dzBQ8"></video> </div>
+                        </div>
+                    </div>
+                    <div renderchildren="true" renderself="true" classname="" class="svelte-nq3wdf style-Q77zO" dataid="rw92e0dh421wjwf7qhrsrt51cards" dataindex="4" jsonkey="WA8sNIvMDI" data-events="[]" id="style-Q77zO"><img loading="lazy" alt="" src="https://cdn.shopify.com/s/files/1/0744/3231/5690/files/blackricesemiya_80x80.jpg?v=1685515697" customsrc="" componentname="WidgetImage" dataindex="4" jsonkey="zMnordkXQE" id="style-oYtn9" class="style-oYtn9">
+                        <div renderchildren="true" renderself="true" classname="" class="svelte-nq3wdf style-8jooM" dataid="rw92e0dh421wjwf7qhrsrt51cards" dataindex="4" jsonkey="Wk4Y21y471" data-events="[]" id="style-8jooM">
+                            <p text="Story title/subtitle" componentname="WidgetText" jsonkey="K3O0IIxLJ0" class="svelte-1rxewty style-nhSOd" id="style-nhSOd">Black Rice Semiya / Karuppukavuni Rice Semiya 250g</p>
+                            <div renderchildren="true" renderself="true" classname="" class="svelte-nq3wdf style-cdXdk" dataid="rw92e0dh421wjwf7qhrsrt51cards" dataindex="4" jsonkey="VUNZ1i16ue" data-events="[]" id="style-cdXdk"><span tagname="span" text="Rs 399" componentname="WidgetPrice" textsource="" dataindex="4" jsonkey="Yzv2GSqPnf" class="svelte-1rxewty style-SrMSv" id="style-SrMSv">₹ 150</span></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="svelte-y7vkdd" containerel="[object HTMLDivElement]">
+                <div renderchildren="true" renderself="true" classname="" class="svelte-nq3wdf style-4XHRL" dataid="cltx3mz1g003mp74z78mjzvvccards" dataindex="5" jsonkey="oM2T_Qx3ex" data-events="[]" id="style-4XHRL">
+                    <div renderchildren="true" renderself="true" classname="" class="svelte-nq3wdf style-B7wzY" dataid="cltx3mz1g003mp74z78mjzvvccards" dataindex="5" jsonkey="o3KT2R_8lv" data-events="[]" id="style-B7wzY">
+                        <div mediatype="video" class="quinn_card_loading quinn_story_loading svelte-nq3wdf style-LIo63" jsonkey="LQpQ74Z2fP" issafari="false" isimagemedia="false" data-events="[]" id="style-LIo63">
+                            <div class="quinn_video-container svelte-jk0m5r style-jEXS3" id="style-jEXS3"><video preload="none" loop="true" autoplay="true" playsinline="true" muted="true" mediatype="video" class="svelte-jk0m5r style-oAzeT" jsonkey="LQpQ74Z2fP" issafari="false" isimagemedia="false" id="style-oAzeT"></video> </div>
+                        </div>
+                    </div>
+                    <div renderchildren="true" renderself="true" classname="" class="svelte-nq3wdf style-AnNih" dataid="cltx3mz1g003mp74z78mjzvvccards" dataindex="5" jsonkey="WA8sNIvMDI" data-events="[]" id="style-AnNih"><img loading="lazy" alt="" src="https://cdn.shopify.com/s/files/1/0744/3231/5690/files/51dc6c30-5d5e-4a52-be1c-f12d00615b1e_1_1_80x80.png?v=1685534249" customsrc="" componentname="WidgetImage" dataindex="5" jsonkey="zMnordkXQE" id="style-7jsUC" class="style-7jsUC">
+                        <div renderchildren="true" renderself="true" classname="" class="svelte-nq3wdf style-HtF8m" dataid="cltx3mz1g003mp74z78mjzvvccards" dataindex="5" jsonkey="Wk4Y21y471" data-events="[]" id="style-HtF8m">
+                            <p text="Story title/subtitle" componentname="WidgetText" jsonkey="K3O0IIxLJ0" class="svelte-1rxewty style-2qowG" id="style-2qowG">Jaggery Powder / Nattu Sakkarai</p>
+                            <div renderchildren="true" renderself="true" classname="" class="svelte-nq3wdf style-9YNwm" dataid="cltx3mz1g003mp74z78mjzvvccards" dataindex="5" jsonkey="VUNZ1i16ue" data-events="[]" id="style-9YNwm"><span tagname="span" text="Rs 399" componentname="WidgetPrice" textsource="" dataindex="5" jsonkey="Yzv2GSqPnf" class="svelte-1rxewty style-fEYK6" id="style-fEYK6">₹ 445</span><span tagname="span" text="Rs 799" componentname="WidgetCutoffPrice" textsource="" class="quinn_widget_cutoff_price svelte-1rxewty style-OiCKt" dataindex="5" jsonkey="e93kUibvAX" id="style-OiCKt">₹ 714</span></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div renderchildren="true" classname="" id="cards-carousel-footer" class="svelte-nq3wdf style-yoBRG" dataid="" dataindex="Infinity" jsonkey="XwPeh-4ads" data-events="[]"></div>
+    </div>
+</div>
+ <!-- Reels Video Section -->
 
 <section class="gap-between">
     <div class="container mt-4">
@@ -404,7 +607,7 @@
               </div>  
                
             </div>
-            <div class="col-lg-6 col-md-6 col-sm-12 col-12">
+            <div class="col-lg-6 col-md-6 col-sm-12 col-12" style="padding-top: 30px;">
                 <div class="Feature-text animate__animated animate__backInRight animate__slower">
                     <h5 class="title-head">Multi floral</h5>
                     <span class="text-span">Alepa Organics Multi Floral Honey is naturally harvested and delivered to you pure with no additives.</span><br>
@@ -511,6 +714,7 @@
     </div>
 </section>
 </div>
+
 <footer class="mt-6">
     <div class="container">
            <div class="row">
@@ -596,6 +800,15 @@ calicut ,673574</span></div>
       plusDivs(1);
     }, 3000);
   </script>
+
+
+  <!-- Card Image Slider -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+<script src="./assets/js/slider.js"></script>
+<!-- Card Image Slider -->
+
+
 <script src="assets/js/customjquery.js"></script>
 <script src="assets/js/vendor/modernizr-3.6.0.min.js"></script>
 <script src="assets/js/vendor/jquery-3.6.0.min.js"></script>

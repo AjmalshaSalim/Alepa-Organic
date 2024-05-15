@@ -65,8 +65,12 @@ body {
 
 /* ajmal */
 /* Snip */
-
 .custom-card-container{
+  width: 90%;
+  margin-left: 5%;
+margin-right:5%;
+}
+.custom-card-container-section{
 background-color: #EDF0DF;
 padding-top: 2%;
 padding-bottom: 2%;
@@ -892,7 +896,8 @@ img {
     height: 100%; 
     width: 100%; 
     transition: all .4s ease; 
-    object-fit: cover;
+    object-fit:contain;
+    aspect-ratio: 3/2;
 } 
 
 .card--default:hover .card__img img { 
@@ -4564,7 +4569,18 @@ ul.cart-items li {
   color: #333333;
   font-weight: normal;
 }
-
+.custom-figure{
+  height: 300px;
+  overflow: hidden;
+  background: #fff;
+}
+.custom-figure img{
+ width: 100%;
+ /* min-width:fit-content; */
+}
+.old{
+  text-decoration: line-through;
+}
 /* List Product CSS */
 .product-content-shop-list {
   text-align: left;

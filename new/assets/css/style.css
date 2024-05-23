@@ -65,6 +65,17 @@ body {
 
 /* ajmal */
 /* Snip */
+.whatsapp-logo {
+  position: fixed;
+  height: 50px;
+  width: 50px;
+  bottom: 12% !important; /* Adjust as needed */
+  right: 0px; /* Adjust as needed */
+  z-index: 1000; /* Ensure it stays above other elements */
+}
+.whatsapp-logo:hover{
+  scale: 1.2 !important;
+}
 .custom-card-container{
   width: 90%;
   margin-left: 5%;
@@ -362,14 +373,14 @@ html {
     background: var(--accentColor);
 } 
 
-.col-12 { 
-    display: flex; 
-    -webkit-box-flex: 0; 
-    -ms-flex: 0 0 auto; 
-    flex: 0 0 auto; 
-    padding-right: 12px; 
-    padding-left: 12px;
-} 
+.col-12 {
+  display: flex;
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  padding-right: 0px;
+  padding-left: 25px;
+}
 
 .col-12 { 
     -ms-flex-preferred-size: 100%; 
@@ -907,7 +918,51 @@ img {
 .card--default:hover .card__img .card__img--gallery img { 
     transform: scale(1);
 } 
+@media screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    .product-slider .col-lg-3 {
+        display: block;
+    }
+  
+      .product-block {
+          display: block;
+          width: 100%;
+          max-width: 100%;
+     
+  }
+}
+
 /* Snip */
+.badges-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  column-gap: 20px;
+}
+.badge {
+  flex: 1 1 100px; /* Allows flex items to grow and shrink, with a base size of 100px */
+  max-width: 100px; /* Ensures that the badges don't grow larger than 100px */
+}
+.badge img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+@media (min-width: 600px) {
+  .badge {
+      flex: 1 1 150px; /* Base size of 150px for larger screens */
+      max-width: 150px; /* Ensures that the badges don't grow larger than 150px */
+  }
+}
+@media (min-width: 900px) {
+  .badge {
+      flex: 1 1 200px; /* Base size of 200px for even larger screens */
+      max-width: 200px; /* Ensures that the badges don't grow larger than 200px */
+  }
+}
+figure {
+  margin:auto !important;
+}
+
 .footer-quote{
 font-style: italic;
 padding-top: 10px;
@@ -915,6 +970,7 @@ padding-top: 10px;
 .mySlides {
   display: none;
   height: 500px;
+  margin-top: 6%;
   overflow: hidden;
   width: 100%;
 }
@@ -943,13 +999,17 @@ padding-top: 10px;
 }
 .w3-content {
   max-width: 100%;
+  margin-bottom: -8%;
 }
 
-.top-header{
+.top-header {
+  position: fixed ;
   height: 40px;
   background-color: #2E84E3;
   text-align: center;
   padding-top: 5px;
+  width: 100%;
+  Z-INDEX: 10000;
 }
 
 .top-header-a{
@@ -1016,7 +1076,9 @@ h3{
 }
 h1 {
   font-size: 36px;
-  letter-spacing: 1.5px;
+  font-weight: 600;
+  font-family: "Abril Fatface", serif !important;
+  letter-spacing: 3px !important ;
   text-transform: uppercase;
 }
 @media only screen and (max-width: 767px) {
@@ -1054,6 +1116,13 @@ h3 {
   }
 }
 @media only screen and (max-width: 575px) {
+  .badges-section {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    column-gap: 0px;
+    padding-top: 10%;
+}
   h3 {
     font-size: 20px;
   }
@@ -1203,9 +1272,40 @@ img {
   }
 }
 @media only screen and (max-width: 479px) {
+  .footer-container-div {
+    margin-top: -41%;
+}
   .container {
-    max-width: 300px;
-  }
+    max-width: 100%;
+}
+.product-slider{
+display: flex !important;
+flex-direction: column !important;
+}
+#style-yewQN.style-yewQN {
+  background: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  border: 0px solid rgb(0, 0, 0);
+  box-shadow: rgb(0, 0, 0) 0px 0px 0px;
+  flex-direction: row; 
+  align-items: flex-start;
+  justify-content: flex-start;
+  border-radius: 0px;
+  width: auto;
+  gap: 0px;
+  height: auto;
+  display: flex;
+  padding: 5px 0px;
+  margin: 0px;
+  margin-bottom: -5%;
+  flex-shrink: 0;
+  z-index: 0;
+  position: relative;
+  font-size: inherit;
+  max-width: 100%;
+  flex-grow: 0;
+  overflow: scroll;
+}
 }
 .g-0 {
   margin-left: 0;
@@ -1518,6 +1618,8 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
   padding: 90px 0 100px;
   position: relative;
   z-index: 1;
+  margin-bottom: 22px;
+  margin-top: -245px;
 }
 @media only screen and (min-width: 1200px) and (max-width: 1499px) {
   .page-banner-section {
@@ -1532,12 +1634,14 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .page-banner-section {
     padding: 50px 0 60px;
-  }
+    margin-top: -106px;
+}
 }
 @media only screen and (max-width: 767px) {
   .page-banner-section {
     padding: 45px 0 50px;
-  }
+    margin-top: -19px;
+}
 }
 
 /*-- Page Banner --*/
@@ -1940,12 +2044,12 @@ blockquote.blockquote .author {
 /*  02. Header CSS
 /*----------------------------------------*/
 header.header {
-
-  position: static;
+  position: fixed;
   left: 0;
-  top: 0;
+  top: 0px;
   width: 100%;
   z-index: 999;
+  background: #fff;
 }
 header.header.is-sticky {
   background: #ffffff;
@@ -2298,8 +2402,8 @@ header.header.is-sticky .header-bottom {
 /*-- Header Logo --*/
 @media only screen and (max-width: 479px) {
   .logo {
-    width: 120px;
-  }
+    width: 150px;
+}
 }
 .logo a {
   display: inline-block;
@@ -2321,18 +2425,20 @@ header.header.is-sticky .header-bottom {
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .header-search {
-    margin-left: 0;
-  }
+    margin-right: 34px;
+}
 }
 @media only screen and (max-width: 767px) {
   .header-search {
     margin-left: 0;
-  }
+    margin-right: -57px;
+}
 }
 @media only screen and (max-width: 479px) {
   .header-search {
-    margin-left: 0;
-  }
+    margin-left: 0px;
+    margin-right: 25px;
+}
 }
 
 .header-search-toggle {
@@ -2370,7 +2476,7 @@ header.header.is-sticky .header-bottom {
 }
 @media only screen and (max-width: 479px) {
   .header-search-form {
-    right: -85px;
+    right: -97px !important;
   }
 }
 .header-search-form form {
@@ -2390,6 +2496,9 @@ header.header.is-sticky .header-bottom {
   .header-search-form form input {
     width: 216px;
   }
+  .header-cart {
+    margin-left: -39px;
+  }
 }
 .header-search-form form button {
   line-height: 24px;
@@ -2408,18 +2517,19 @@ header.header.is-sticky .header-bottom {
 
 /*-- Header Cart --*/
 .header-cart {
-  margin-left: 15px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+    margin-left: 19px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .header-cart {
-    margin-right: 50px;
-  }
+    margin-right: 32px;
+    margin-left: -24px;
+}
 }
 @media only screen and (max-width: 767px) {
   .header-cart {
@@ -2428,8 +2538,9 @@ header.header.is-sticky .header-bottom {
 }
 @media only screen and (max-width: 479px) {
   .header-cart {
-    margin-right: 40px;
-  }
+    margin-right: 23px;
+    margin-left: -18px;
+}
 }
 .header-cart > a {
   background-color: transparent;
@@ -5469,16 +5580,17 @@ a.popup-img {
   }
 }
 .wishlist-compare-btn a {
-  background: none;
+  background: #2e84e3;
   border: 1px solid #ededed;
-  color: #333333;
+  color: #fff;
   display: inline-block;
   font-size: 14px;
   font-weight: normal;
   height: 45px;
   line-height: 43px;
+margin-bottom: 7px;
   text-align: center;
-  width: 200px;
+  width: 373px;
   border-radius: 0;
   -webkit-transition: 0.3s ease;
   transition: 0.3s ease;

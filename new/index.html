@@ -13,7 +13,8 @@
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
 
-
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Suranna&display=swap" rel="stylesheet">
 
 
 
@@ -42,13 +43,17 @@
     <div id="main-wrapper">
 <div class="main">
 
+    <div class="fixed">
+
+        
+    </div>
     <!-- Top Header -->
     <div class="top-header">
 <a class="top-header-a">Free Shipping - Enjoy Free delivery on orders.</a>
     </div>
      <!-- Top Header -->
 
-    <header class="header header-transparent header-sticky">
+    <header class="header header-transparent header-sticky" style="top: 40px !important;">
            
         <div class="header-bottom menu-right">
             <div class="container-fluid pl-75 pr-75 pl-lg-15 pr-lg-15 pl-md-15 pr-md-15 pl-sm-15 pr-sm-15 pl-xs-15 pr-xs-15">
@@ -135,6 +140,10 @@
     
     <!-- Banner Carousel -->
     <div class="w3-content w3-display-container">
+         <!-- WhatsApp logo -->`
+      <a href="https://wa.me/+9197455 23348" target="_blank" class="whatsapp-logo" style="margin-right: 10px;">
+        <img src="./assets/img/whatsapp-logo.png" alt="WhatsApp Logo" width="50">
+      </a>
     
         <div class="w3-display-container mySlides">
           <img src="./assets/img/alepa/Banners/Common-Banner.jpg" style="width:100%">
@@ -176,47 +185,23 @@
         </div>
     </div> -->
 </div>  
-<section class="mt-6" id="progress-circles-container">
-    <div class="container">
-         <div class="row animate__animated animate__backInLeft animate__slower g-4">
-             <div class="col-xl-3 col-lg-3 col-md-3 col-sm-6 col-12">
-
-                  <div class="circle arrow" id="circle">
-                       <div class="count-title ">
-                           <span class="count">0 %</span>
-                       </div>
-                       <h6 class="text-count"> Pure & Natural</h6>
-                  </div>
-
-             </div>
-             <div class="col-xl-3 col-lg-3 col-md-3 col-sm-6 col-12">
-
-               <div class="circle" id="circle-pure">
-                   <div class="count-title">
-                        <span class="count1">0 %</span>
-                   </div>
-                   <h6 class="text-count">No Added Sugar</h6>
-              </div>
-             </div>
-             <div class="col-xl-3 col-lg-3 col-md-3 col-sm-6 col-12">
-               <div class="circle" id="circle-artificial">
-                   <div class="count-title">
-                       <span class="count2">0 %</span>
-                   </div>
-                   <h6 class="text-count">Artifical Color & Flavour</h6>
-              </div>
-             </div>
-             <div class="col-xl-3 col-lg-3 col-md-3 col-sm-6 col-12">
-               <div class="circle" id="arrow1">
-                   <div class="count-title">
-                       <span class="count3">0 %</span>
-                   </div>
-                   <h6 class="text-count">Lab Tested</h6>
-              </div>
-             </div>
-         </div>
+<section class="badges-section">
+    <div class="badge">
+        <img src="./assets/img/Badges/natural.jpg" alt="No Sugar Added">
     </div>
-</section>  
+    <div class="badge">
+        <img src="./assets/img/Badges/organic.jpg" alt="100% Natural">
+    </div>
+    <div class="badge">
+        <img src="./assets/img/Badges/no-preservatives.png" alt="Gluten Free">
+    </div>
+
+    <div class="badge">
+        <img src="./assets/img/Badges/no-sugar.jpg" alt="Organic">
+    </div>
+    
+    <!-- Add more badge divs as needed -->
+</section>
 
 <!-- Cards With Slider  -->
 <div
@@ -232,7 +217,7 @@ class="product-section section pt-100 pt-lg-80 pt-md-70 pt-sm-60 pt-xs-50 pb-65 
         </div>
         <!-- Section Title End -->
     </div>
-    <div class="product-slider tf-element-carousel" data-slick-options='{
+    <div id="product-slider" class="product-slider tf-element-carousel" data-slick-options='{
     "slidesToShow": 3,
     "slidesToScroll": 1,
     "infinite": true,
@@ -259,7 +244,7 @@ class="product-section section pt-100 pt-lg-80 pt-md-70 pt-sm-60 pt-xs-50 pb-65 
     ]'>
         
         
-        <div class="col-lg-3">
+        <div class="col-lg-3 ">
             <!-- Single Product Start -->
             <div class="single-product mb-30">
                 <div class="product-img">
@@ -302,7 +287,7 @@ class="product-section section pt-100 pt-lg-80 pt-md-70 pt-sm-60 pt-xs-50 pb-65 
                     <span class="descount-sticker">-10%</span>
                     <span class="sticker">New</span>
                     <div class="product-action d-flex justify-content-between">
-                        <a class="product-btn" href="#">Add to Cart</a>
+                        <a class="product-btn" href="#">Buy Now</a>
                         <ul class="d-flex">
                             <li><a href="#quick-view-modal-container" data-bs-toggle="modal" title="Quick View"><i class="fa fa-eye"></i></a></li>
                             <li><a href="#"><i class="fa fa-heart-o"></i></a></li>
@@ -371,7 +356,7 @@ class="product-section section pt-100 pt-lg-80 pt-md-70 pt-sm-60 pt-xs-50 pb-65 
                     <span class="descount-sticker">-10%</span>
                     <span class="sticker">New</span>
                     <div class="product-action d-flex justify-content-between">
-                        <a class="product-btn" href="#">Add to Cart</a>
+                        <a class="product-btn" href="#">Buy Now</a>
                         <ul class="d-flex">
                             <li><a href="#quick-view-modal-container" data-bs-toggle="modal" title="Quick View"><i class="fa fa-eye"></i></a></li>
                             <li><a href="#"><i class="fa fa-heart-o"></i></a></li>
@@ -446,7 +431,7 @@ class="product-section section pt-100 pt-lg-80 pt-md-70 pt-sm-60 pt-xs-50 pb-65 
                     <span class="descount-sticker">-10%</span>
                     <span class="sticker">New</span>
                     <div class="product-action d-flex justify-content-between">
-                        <a class="product-btn" href="#">Add to Cart</a>
+                        <a class="product-btn" href="#">Buy now</a>
                         <ul class="d-flex">
                             <li><a href="#quick-view-modal-container" data-bs-toggle="modal" title="Quick View"><i class="fa fa-eye"></i></a></li>
                             <li><a href="#"><i class="fa fa-heart-o"></i></a></li>
@@ -582,150 +567,17 @@ class="product-section section pt-100 pt-lg-80 pt-md-70 pt-sm-60 pt-xs-50 pb-65 
 </div>
  <!-- Reels Video Section -->
  
-<section class="gap-between">
-    <div class="col">
-        <div class="section-title mb-40 mb-xs-20">
-            <h2 style="text-align: center; font-size: large; padding-bottom: 10px; font-weight: 500;">About Our Products</h2>
-        </div>
-    </div>
-    <div class="container mt-4">
-        <div class="row">
-            <div class="col-lg-6 col-md-6 col-sm-12 col-12">
-              <div class="Feature-box  animate__animated animate__backInLeft animate__slower">
-                <div class="Feature">
-                    <img src="assets/img/alepa/multifloral honey.png" id="Multifloral-img">
-                </div>
-                <div class="block-caption" id="Multifloral">
-                  
-                    <div class="desc">
-                        <ul>
-                        <li><a href=""><i class="fa-solid fa-check "></i><span class="span2">treat symptoms of cough and cold</span> </a></span></li>
-                        <li><a href=""><i class="fa-solid fa-check "></i><span  class="span2">Soothes and heals the digestive system</span></a></li>
-                        <li><a href=""><i class="fa-solid fa-check "></i><span  class="span2">Boosts immune function</span></a></li>
-                        <li><a href=""><i class="fa-solid fa-check "></i><span  class="span2">Helps lower your risk of heart disease.</span></a></li>
-                        <li><a href=""><i class="fa-solid fa-check "></i><span  class="span2">Helps in fighting infections.</span></a></li>
-                        <li><a href=""><i class="fa-solid fa-check "></i><span  class="span2">Helps in preventing acid reflux.</span></a></li>
-                        </ul>
-                   </div>
-                  
-                  
-                   
-                  
-                
-              </div>
-              </div>  
-               
-            </div>
-            <div class="col-lg-6 col-md-6 col-sm-12 col-12" style="padding-top: 30px;">
-                <div class="Feature-text animate__animated animate__backInRight animate__slower">
-                    <h5 class="title-head">Multi floral</h5>
-                    <span class="text-span">Alepa Organics Multi Floral Honey is naturally harvested and delivered to you pure with no additives.</span><br>
-                    <br>
-                    <span class="para-span">Natural multi-flora honey, also known as multi flower honey, is produced by honeybees that often feed on a variety of springtime flowers. It is created from the nectar of many floral species.
-                        <br>A study suggests that honey helps to treat upper respiratory infections in children.<br>
-                        Antioxidants present in multiflora honey can prevent inflammation in the body that are a primary cause of major health issues, including cardiovascular complications, cancer, and autoimmune diseases.
-                    </span>
-                    <div class="shop"><a class="btn btn-shop">Shop Now</a></div>
-                    
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
 
-<section class="mt-6" id="left-banner">
-    <div class="container mt-4">
-        <div class="row">
-            
-            <div class="col-lg-6 col-md-6 col-sm-12 col-12">
-                <div class="Feature-text right animate__animated animate__backInLeft animate__slower">
-                    <h5 class="title-head">Stingless bee honey</h5>
-                    <span class="text-span"> Stingless bee honey is one of the best honeys in the world. It has countless benefits. Alepa Organics brings it to you naturally and in unadulterated purity.</span><br>
-                    <br><span class="para-span">
-                        Stingless Bee Honey has been a natural medicine for ages due to its medicinal properties. The almost miraculous healing properties of this honey are perhaps why the tribal community refer to it as an elixir of god. Stingless Bee honey is a valuable healing gift from nature.<br>
-                        Stingless bee honey is a natural sweetener rich in antioxidants and nutrients. It contains vitamins, minerals and amino acids, making it a good source of nutrients. Stingless bee honey is said to be the most nutritious honey compared to other types of honey.
-                    </span>
-                    <div class="shop"><a class="btn btn-shop">Shop Now</a></div>
-                    
-                </div>
-            </div>
-            <div class="col-lg-6 col-md-6 col-sm-12 col-12">
-                <div class="Feature-box right animate__animated animate__backInRight animate__slower">
-                  <div class="Feature-right">
-                      <img src="assets/img/alepa/STINGLESS BEE HONEY.1.png" id="stainlesss">
-                  </div>
-                  <div class="block-caption right" id="desc1">
-                    
-                      
-                    
-                    
-                    
-                      <div class="desc">
-                                <ul>
-                                <li><a href=""><i class="fa-solid fa-check "></i><span  class="span2">Stingless bee honey reacts to maintain glycogen levels and is proven to improve the day to day life activities</span> </a></span></li>
-                                <li><a href=""><i class="fa-solid fa-check "></i><span  class="span2">Stingless bee honey can reduce uncomfortableness such as ulcers and bacterial gastroenteritis.</span></a></li>
-                                <li><a href=""><i class="fa-solid fa-check "></i><span  class="span2">Help improve the Health of the eyes and Eyesight.</span></a></li>
-                                <li><a href=""><i class="fa-solid fa-check "></i><span  class="span2">Improve Body Immunity System and energy</span></a></li>
-                                <li><a href=""><i class="fa-solid fa-check "></i><span  class="span2">Body Cleansing and detoxification</span></a></li>
-                                <li><a href=""><i class="fa-solid fa-check "></i><span  class="span2">Improve Blood Circulation</span></a></li>
-                                </ul>
-                    </div>
-                    
-                  
-                </div>
-                </div>  
-                 
-              </div>
-        </div>
-    </div>
-</section>
+
 <section class="gap-between">
     <div class="container mt-4">
-        <div class="row">
-            <div class="col-lg-6 col-md-6 col-sm-12 col-12">
-              <div class="Feature-box animate__animated animate__backInLeft animate__slower">
-                <div class="Feature">
-                    <img src="assets/img/alepa/wild forest honey.png" id="Wildforest-img" class="image">
-                </div>
-                <div class="block-caption" id="Wildforest">
-                  
-                    <div class="desc">
-                        <ul>
-                        <li><a href=""><i class="fa-solid fa-check "></i><span  class="span2"> Full of antioxidants and vitamins</span> </a></span></li>
-                        <li><a href=""><i class="fa-solid fa-check "></i><span  class="span2">Healthy refined sugar alternative</span></a></li>
-                        <li><a href=""><i class="fa-solid fa-check "></i><span  class="span2"> Pure & Unadulterated</span></a></li>
-                        <li><a href=""><i class="fa-solid fa-check "></i><span  class="span2">Honey helps reduces ulcers & other bacterial gastrointestinal disorders.</span></a></li>
-                        <li><a href=""><i class="fa-solid fa-check "></i><span  class="span2"> Superb for Clearer Skin andShiny Hair</span></a></li>
-                        <li><a href=""><i class="fa-solid fa-check "></i><span  class="span2">Boosts Immunity</span></a></li>
-                        </ul>
-                   </div>
-                  
-                  
-                   
-                  
-                
-              </div>
-              </div>  
-               
-            </div>
-            <div class="col-lg-6 col-md-6 col-sm-12 col-12">
-                <div class="Feature-text animate__animated animate__backInRight animate__slower">
-                    <h5 class="title-head">Wild forest honey</h5>
-                    <span class="text-span">Alepa organics Wild Forest Honey collected naturally from wild forest with no sugar adulteration.</span><br>
-                    <br><span class="para-span">where bees forage on an abundance of flowering trees and shrubs, we bring you delicious organic honey, naturally packed with antioxidants, minerals, and enzymes.<br>
-                        Forest honey benefits include lowering symptoms of respiratory diseases, and it can alleviate the inflammation in the airways of the lungs.<br>
-                   A small spoonful of raw honey along with a warm cup of milk before going to the bed improves and regulates the quality of sleep.</span>
-                    <div class="shop"><a class="btn btn-shop">Shop Now</a></div>
-                    
-                </div>
-            </div>
-        </div>
+        
     </div>
 </section>
 </div>
 
-<div class="footer-container-div" style="background-image: url(./assets/img/alepa/abstract.png); background-size:100%; background-repeat: no-repeat; background-position: bottom;">
-    <footer class="mt-6" >
+<div class="footer-container-div"style="background-image: url(./assets/img/alepa/abstract.png);background-size:100%;background-repeat: no-repeat;background-position: bottom;margin-bottom: -2% !important;">
+    <footer class="mt-6" style="margin-top: -10% !important;">
         <div class="container">
                <div class="row">
                       <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12 col-12"> 
@@ -815,8 +667,32 @@ calicut ,673574</span></div>
     slideInterval = setTimeout(function () {
       plusDivs(1);
     }, 3000);
+    
   </script>
-
+<script>
+    // Function to handle the media query change
+    function handleDeviceChange(e) {
+      var productSlider = document.getElementById('product-slider');
+      if (e.matches) {
+        // Screen width is between 320px and 480px
+        productSlider.classList.add('ajmal');
+        productSlider.classList.remove('tf-element-carousel');
+      } else {
+        // Screen width is not between 320px and 480px
+        productSlider.classList.remove('ajmal');
+        productSlider.classList.add('tf-element-carousel');
+      }
+    }
+  
+    // Define the media query
+    var mediaQuery = window.matchMedia('(min-device-width: 320px) and (max-device-width: 480px)');
+  
+    // Initial check
+    handleDeviceChange(mediaQuery);
+  
+    // Add a listener for changes in the media query's status
+    mediaQuery.addListener(handleDeviceChange);
+  </script>
 
   <!-- Card Image Slider -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>

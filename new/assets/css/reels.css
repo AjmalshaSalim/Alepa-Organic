@@ -123,16 +123,12 @@
   } 
   
   @media (min-width: 501px){ 
-    #quinn-cards-1.quinn_cards { 
-      margin: 0; 
-      padding: 10px; 
-      scroll-padding: 10px;
-    } 
+    .quinn_cards {
+      margin-top: 0px;
+      padding: 53px !important;
+  }
   }     
   
-  .quinn_cards  { 
-      margin-top: 0px;
-  } 
   
   @media all{ 
     *,:after,:before { 

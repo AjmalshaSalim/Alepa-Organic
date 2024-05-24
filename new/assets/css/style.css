@@ -2541,6 +2541,9 @@ header.header.is-sticky .header-bottom {
     margin-right: 23px;
     margin-left: -18px;
 }
+#logo-device{
+  width: 50%;
+}
 }
 .header-cart > a {
   background-color: transparent;
